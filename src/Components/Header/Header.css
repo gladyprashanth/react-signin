@@ -1,0 +1,13 @@
+.Header{
+    border: 1px solid red;
+    background: #ffffff;
+}
+
+.topHeader {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    padding: 1.5rem;
+}
