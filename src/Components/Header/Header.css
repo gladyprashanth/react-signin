@@ -1,13 +1,74 @@
-.Header{
-    border: 1px solid red;
+.Header {
+    /* border: 1px solid red; */
     background: #ffffff;
 }
 
 .topHeader {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 8rem;
+    align-items: center;
     box-sizing: border-box;
 
-    padding: 1.5rem;
+    padding: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.headerInput {
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.iconAndSearchContainer {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 3rem;
+    width: 60%;
+}
+
+.headerInput input {
+    /* border: 1px solid red; */
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0.8rem;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.contactUsHeader{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 3rem;
+}
+
+.contactUsHeaderContainer{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contactUsIcon{
+    /* border: 1px solid red; */
+    font-size: 40px;
+    color: #2b28e9;
+}
+
+.contactUsContent div:first-child {
+    /* font-weight: bold; */
+    cursor: pointer;
+}
+
+.contactUsContent div:last-child {
+    /* font-weight: bold; */
+    cursor: pointer;
+    color: #959595;
 }
