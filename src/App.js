@@ -15,23 +15,23 @@ function App() {
     children: [
       {
         path: "/",
-        element: <Home/>
+        element: <Home />
       },
       {
         path: "/products",
-        element: <Products/>
+        element: <Products />
       },
       {
-        path: "/products/:name",
-        element: <SingleProduct/>
+        path: "/products/solo",
+        element: <SingleProduct />
       },
       {
         path: "/blog",
-        element: <Blog/>
+        element: <Blog />
       },
       {
         path: "/contact-us",
-        element: <ContactUs/>
+        element: <ContactUs />
       },
     ]
   }])
