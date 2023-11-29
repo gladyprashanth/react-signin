@@ -42,7 +42,6 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div>Dropdown Header</div>
         </div>
     )
 }

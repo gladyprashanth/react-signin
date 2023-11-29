@@ -1,0 +1,13 @@
+.MainBody{
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+
+    overflow-x: hidden;
+}
+
+.MainBody_contents{
+    /* border: 1px solid red; */
+}

@@ -1,0 +1,120 @@
+.Footer {
+    /* border: 1px solid red; */
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer_inner {
+    /* border: 1px solid red; */
+    width: 99%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: whitesmoke; */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
+    /* Adjust the values as needed */
+}
+
+.Footer_top {
+    /* border: 1px solid red; */
+
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.Footer_top_left {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Footer_top_left_calls {
+    /* border: 1px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1%;
+}
+
+.Footer_top_left_calls_icon_container {
+    /* border: 1px solid red; */
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.Footer_top_left_calls_icon_container img {
+    /* border: 1px solid red; */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.Footer_top_left_calls_content {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+}
+
+.Footer_top_left_calls_content_quote {
+    /* border: 1px solid red; */
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.Footer_top_left_calls_content_mobile {
+    /* border: 1px solid red; */
+    font-size: 30px;
+}
+
+.Footer_top_left_address {
+    /* border: 1px solid rgb(17, 0, 255); */
+    width: 40%;
+    font-size: 20px;
+}
+
+.footerLeft_Icons_container {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 1rem;
+}
+
+.footerOption_container {
+    /* border: 1px solid red; */
+    color: gray;
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+}
+
+.footerOption_header {
+    /* border: 1px solid red; */
+    color: #5b59ee;
+    font-weight: bold;
+}
+
+.footerOption_contents {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+
+    cursor: pointer;
+}
+
+.footerOption_contents div {
+    font-weight: bold;
+}
+
+.footerOption_contents div:hover {
+    color: #5b59ee;
+}
