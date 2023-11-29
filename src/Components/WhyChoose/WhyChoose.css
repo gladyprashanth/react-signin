@@ -1,0 +1,14 @@
+.black{
+    /* height:  145vh; */
+    width: 100%;
+    background-color: #F7f7f7;
+}
+
+  .icon{
+    color: blue;
+}
+.heart:hover{
+   color: red;
+    cursor: pointer;
+
+}
