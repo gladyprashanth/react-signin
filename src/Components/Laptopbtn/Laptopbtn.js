@@ -1,10 +1,33 @@
 import React from 'react'
 
-import desktop_pc_one from "../../Components/assets/images/desktop_pc_one.webp"
-import desktop_pc_two from "../../Components/assets/images/desktop_pc_two.webp"
-import desktop_pc_three from "../../Components/assets/images/desktop_pc_three.webp"
+import desktop_pc_one from "../../Assets/desktop_pc_one.webp"
+import desktop_pc_two from "../../Assets/desktop_pc_two.webp"
+import desktop_pc_three from "../../Assets/desktop_pc_three.webp"
 
 import { FiHeart } from "react-icons/fi";
+
+const desktops = [
+    {
+      id: 1,
+      image: desktop_pc_one,
+      title: "Desktop on Rent i3 4th Gen 8GB RAM-320 GB HDD 18.5 Inch Screen Keyboard And Mouse",
+    },
+    {
+      id: 2,
+      image: desktop_pc_two,
+      title: "Desktop on Rent i3 6th Gen 8GB RAM-320 GB HDD 18.5 Inch Screen Keyboard And Mouse",
+    },
+    {
+      id: 3,
+      image: desktop_pc_three,
+      title: "Laptop on Rent i3 8th Gen 8GB RAM-320 GB HDD 18.5 Inch Screen Keyboard And Mouse",
+    },
+    {
+        id: 2,
+        image: desktop_pc_two,
+        title: "Desktop on Rent i3 6th Gen 8GB RAM-325 GB HDD 18.5 Inch Screen Keyboard And Mouse",
+      },
+  ];
 
 
 const Laptopbtn = () => {

@@ -33,10 +33,6 @@ function App() {
         path: "/contact-us",
         element: <ContactUs/>
       },
-      {
-        path: "/single-product",
-        element: <SingleProduct/>
-      },
     ]
   }])
 
