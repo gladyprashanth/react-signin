@@ -8,7 +8,6 @@ import AdsHeader from '../Header/AdsHeader/AdsHeader'
 import BottomHeader from '../Header/BottomHeader/BottomHeader'
 
 
-
 const MainBody = () => {
 
   return (
@@ -18,8 +17,10 @@ const MainBody = () => {
       <Header />
       <BottomHeader />
       <div className='MainBody_contents'>
+       
         <Outlet />
         <Footer />
+
       </div>
     </div>
   )

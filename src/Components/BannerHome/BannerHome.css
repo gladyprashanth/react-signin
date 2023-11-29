@@ -1,0 +1,51 @@
+.border_m1 {
+    /* border: 1px solid rgb(255, 255, 255);  */
+    padding: 3px; 
+    width: 75px;
+    font-size: 12px;
+   margin-left: 10rem;
+   border-radius: 6px;
+
+  }
+  .btn_2A27E9{
+    background-color:#2A27E9 ;
+  }
+  .rentmac{
+    font-size: 20px;
+    width: 15rem;
+    padding-left: 3rem;
+   
+  }
+  .txt_three{
+    margin-top: 5rem;
+  }
+  .logos_ram ul{
+    list-style: none;
+    margin-top: 4rem;
+  }
+  .ban{
+    height: 20rem;
+    width: 100%;
+  
+  }
+  .slide{
+    background: url(../../Assets/Backgrnd.png);
+  }
+  
+
+  img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
