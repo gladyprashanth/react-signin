@@ -17,8 +17,7 @@ const MainBody = () => {
       <Header />
       <BottomHeader />
       <div className='MainBody_contents'>
-       
-        <Outlet />
+        <Outlet /> 
         <Footer />
 
       </div>

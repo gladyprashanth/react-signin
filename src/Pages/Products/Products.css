@@ -1,0 +1,75 @@
+.desktop_heading h1{
+    color: #0B1A48;
+}
+.font_col_vj{
+    color: #0B1A48;
+}
+
+.bg_color_vj{
+    background-color: #F7F7F7;
+}
+.box_col_vj{
+    color: #FFFFFF;
+}
+
+.desktop_card img{
+    cursor: pointer;
+}
+
+.zoom_desktop_one img{
+    width: 550px;
+}
+
+.rent_desk_btn{
+    background-image: linear-gradient(0deg,#25358c 0%,#901da2 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.rent_desk_bton{
+    background-image: linear-gradient(0deg,#25358c 0%,#901da2 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+}
+.heart_reacticon{
+    cursor: pointer;
+}
+/* icons------- */
+.desktop_react_icons{
+    cursor: pointer;
+}
+
+.desktop_react_icons {
+    position: absolute;
+    justify-content: space-around;
+    align-items: right;
+    height: 100px; /* Adjust the height as needed */
+    opacity: 0; /* Initially hide the icons */
+}
+  
+  .circle {
+    margin-left: 132px;
+    cursor: pointer;
+    top: 10px;
+    justify-content: right;
+    align-items: right  ;
+    width: 540px; 
+    height: 40px;
+    background-color: transparent;  
+    opacity: 0; 
+    transition: opacity 0.2s ease; /* Add a smooth transition effect */
+  }
+  
+  .circle svg {
+    color: black; /* Change the icon color as desired */
+  } 
+  .desktop_card:hover .circle {
+    opacity: 1; /* Adjust opacity to fully visible on hover */
+  }
+  
