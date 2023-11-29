@@ -33,6 +33,7 @@ function App() {
         path: "/contact-us",
         element: <ContactUs/>
       },
+      
     ]
   }])
 

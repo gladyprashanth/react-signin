@@ -7,6 +7,8 @@ import TopHeader from '../Header/TopHeader/TopHeader'
 import AdsHeader from '../Header/AdsHeader/AdsHeader'
 import BottomHeader from '../Header/BottomHeader/BottomHeader'
 
+
+
 const MainBody = () => {
 
   return (
