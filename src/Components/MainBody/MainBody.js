@@ -19,6 +19,7 @@ const MainBody = () => {
       <div className='MainBody_contents'>
        
         <Outlet />
+        <Outlet /> 
         <Footer />
 
       </div>
