@@ -1,0 +1,21 @@
+.h1_head h1 {
+  font-size: 58px;
+}
+
+.bg_clr_sm{
+    background: whitesmoke;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.bg-smoke{
+    background: rgba(0,0,0,.02);
+    padding: 20px;
+    position: relative;
+    /* margin-left: 105px; */
+}
+
+.text_clrcmn{
+    color: #0B1A48;
+
+}
