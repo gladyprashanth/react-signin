@@ -17,6 +17,7 @@ const Home = () => {
       <BannerHome />
       <Bestservices />
       <ITEquipment />
+      
       <AboutRental/>
       <WhyChoose />
       <Satisfied />
