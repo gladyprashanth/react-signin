@@ -1,113 +1,109 @@
 import React from 'react'
-import './Blog.css'
-import ips from '../../Assets/ips.webp'
-import ips2 from '../../Assets/ips2.webp'
-import ips3 from '../../Assets/ips3.webp'
-import ips4 from '../../Assets/ips4.webp'
-import ips5 from '../../Assets/ips5.webp'
-import ips6 from '../../Assets/ips6.webp'
+import './Page4.css'
 import ips7 from '../../Assets/ips7.webp'
 import ips8 from '../../Assets/ips8.webp'
 import ips9 from '../../Assets/ips9.webp'
-
-
-
+import ips14 from '../../Assets/ips14.webp'
+import ips15 from '../../Assets/ips15.webp'
+import ips16 from '../../Assets/ips16.webp'
+import ips19 from '../../Assets/ips19.webp'
 
 const blogData = [
-  {
-    id: 1,
-    imageSrc: ips,
-    title: 'Tips For The Best Laptop Rentals Near Me',
-    content: 'Introduction Welcome to Rental Plaza, your ultimate destination for a seamless laptop rental experience right at your doorstep. In an era dominated by flexibility, affordability, and […]',
-    likes: 0,
-    date: 'November 16, 2023',
-    
-  },
-  {
-    id: 1,
-    imageSrc: ips2,
-    title: 'MacBook Pro M3 on Rent: Unleash Your Creativity',
-    content: 'Welcome to the future of creative workstations, where performance meets portability. In an era dominated by ever-evolving technology, the MacBook Pro M3 stands as a true […]',
-    likes: 0,
-    date: 'November 18, 2023',
-    
-  },
- 
-  {
-    id: 1,
-    imageSrc: ips3,
-    title: 'How to Rent a Server in Gurugram',
-    content: 'Gurugram, also known as Gurgaon, has evolved into a thriving corporate hub in India. With a bustling economy and a dynamic business environment, the demand for […]',
-    likes: 0,
-    date: 'November 10, 2023',
-    
-  },
- 
-  {
-    id: 1,
-    imageSrc: ips4,
-    title: 'How to Rent Laptop in Gurugram',
-    content:'In the bustling city of Gurugram, where innovation and opportunities abound, having the right tools at your disposal is crucial for personal and professional success. Laptops […]',
-    likes: 0,
-    date: 'October 10, 2023',
-    
-  },
- 
-  {
-    id: 1,
-    imageSrc: ips5,
-    title: 'How to Rent a Desktop PC in Gurugram with Rental Plaza',
-    content: 'Welcome to the vibrant city of Gurugram, a place where businesses and individuals are always on the go. In this fast-paced environment, having access to high-performance […]',
-    likes: 0,
-    date: 'November 25, 2023',
-    
-  },
- 
-  {
-    id: 1,
-    imageSrc: ips6,
-    title: 'How to Rent a MacBook in Gurugram with Rental Plaza',
-    content: 'Gurugram, often referred to as the Millennium City, is India’s thriving hub for technology and innovation. In this dynamic and competitive environment, businesses and individuals require […]',
-    likes: 3,
-    date: 'November 16, 2023',
-    
-  },
- 
-  {
-    id: 1,
-    imageSrc: ips7,
-    title: 'Maximizing Efficiency: How Renting Desktops Benefits Mohali IT Companies',
-    content: 'In the dynamic landscape of information technology, efficiency is the linchpin that drives productivity and competitiveness. For IT companies in Mohali, the choice between purchasing and […]',
-    likes: 0,
-    date: 'November 16, 2023',
-    
-  },
- 
-  {
-    id: 1,
-    imageSrc: ips8,
-    title: 'IT Management Simplified: The Benefits of Renting Laptops for Chandigarh Businesses',
-    content: 'In today’s fast-paced business world, staying competitive often hinges on having access to the latest technology. For businesses in Chandigarh, laptops are the lifeblood of daily […]',
-    likes: 0,
-    date: 'November 16, 2023',
-    
-  },
- 
-  {
-    id: 1,
-    imageSrc: ips9,
-    title: 'Affordable Access to Cutting-Edge Technology: MacBook M1 Pro Rentals in Mohali',
-    content: 'In today’s fast-paced digital world, staying ahead of the curve often requires having access to cutting-edge technology. For professionals, students, and creatives in Mohali, the MacBook […]',
-    likes: 0,
-    date: 'November 16, 2023',
-    
-  },
- 
-];
+    {
+      id: 1,
+      imageSrc: ips9,
+      title: 'Choosing the Right Laptop Rental Plan for Your Short-Term Project ',
+      content: ' In today’s dynamic business landscape, short-term projects have become a common practice for organizations seeking to remain agile and responsive to changing market demands. Whether it’s […] ',
+      likes: 0,
+      date: 'November 16, 2023',
+      
+    },
+    {
+      id: 1,
+      imageSrc: ips8,
+      title: 'Solutions for Scale: Bulk Laptop Rentals for Corporate Training and Events',
+      content: 'In the fast-paced world of business, corporate training and events play a pivotal role in enhancing skills, knowledge, and networking opportunities. As organizations strive for growth […]',
+      likes: 0,
+      date: 'November 18, 2023',
+      
+    },
+   
+    {
+      id: 1,
+      imageSrc: ips15,
+      title: 'Powerful Performance on Demand: The Advantages of Desktop Rentals for Graphic Designers in Mohali',
+      content: 'In the fast-paced world of graphic design, having access to a powerful and reliable computer is essential for unleashing creativity and bringing visions to life. For […] ',
+      likes: 0,
+      date: 'November 10, 2023',
+      
+    },
+   
+    {
+      id: 1,
+      imageSrc: ips7,
+      title: ' Should Small Businesses Buy or Rent IT Equipment? Making the Right Choice for Your Budget and Growth',
+      content:'In today’s fast-paced business landscape, small businesses are faced with a critical decision when it comes to acquiring IT equipment. The choice between buying and renting […] ',
+      likes: 0,
+      date: 'October 10, 2023',
+      
+    },
+   
+    {
+      id: 1,
+      imageSrc: ips19,
+      title: ' 7 Benefits of Renting Desktops for Your Business in Mohali ',
+      content: 'In today’s fast-paced business landscape, staying technologically competitive is essential for success. Small and medium-sized businesses in Mohali are increasingly turning to desktop rentals as a […]',
+      likes: 0,
+      date: 'November 25, 2023',
+      
+    },
+   
+    {
+      id: 1,
+      imageSrc: ips14,
+      title:' Adapting to Changing Times: The Role of Desktop Rentals in Noida’s Hybrid Work Environment',
+      content: ' As the way we work continues to evolve, Noida’s business landscape is witnessing a shift towards hybrid work models, blending in-office and remote work arrangements. With […] ',
+      likes: 3,
+      date: 'November 16, 2023',
+      
+    },
+   
+    {
+      id: 1,
+      imageSrc: ips16,
+      title: ' Temporary Expansion: Using Laptop Rentals to Accommodate Seasonal Business Needs',
+      content: 'Seasonal fluctuations in business demand are a common challenge faced by many industries. Whether it’s during the holiday shopping season, tax season, or other peak periods, […] ',
+      likes: 0,
+      date: 'November 16, 2023',
+      
+    },
+   
+    {
+      id: 1,
+      imageSrc: ips8,
+      title: ' Streamlining Business Operations: The Role of Desktop Rentals in Mohali’s Corporate Sector',
+      content: ' In today’s fast-paced corporate landscape, staying ahead of the competition requires efficient and streamlined business operations. One crucial aspect that plays a significant role in achieving […] ',
+      likes: 0,
+      date: 'November 16, 2023',
+      
+    },
+   
+    {
+      id: 1,
+      imageSrc: ips9,
+      title: ' Affordable and Efficient: The Advantages of Renting IT Equipment for Startup Businesses ',
+      content: 'As the world continues to embrace digital transformation, IT equipment has become a fundamental aspect of running a successful business. For startup businesses, having access to […] ',
+      likes: 0,
+      date: 'November 16, 2023',
+      
+    },
+   
+  ];
 
-
-const Blog = () => {
+const Page4 = () => {
   return (
+    <div>
+             
     <div>
       <div className='container-fluid design'>
       <div className='container '>
@@ -122,7 +118,7 @@ const Blog = () => {
       </div>
       </div>
 
-      {/* .............................finish Title.................................................................................. */}
+      {/* ...........................................................finish Title....................................................................... */}
 
 <div className='container-fluid design'>
 <div className='container '>
@@ -182,7 +178,7 @@ const Blog = () => {
 </div>
 </div>
 
-{/* .......................................................finish-body................................................................................... */}
+{/* ...............................................................finish-body.......................................................... */}
 
 
 <div className='containe design'>
@@ -190,9 +186,9 @@ const Blog = () => {
     <div className='col-sm-3 mt-5'></div>
     <div className='col-sm-9 mt-5 '>
     <div className="pagination">
-      <a className='text-primary  ' href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+      <a className='text-primary  ' href="/Page3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-</svg>Prev  page</a>
+</svg> Prev page</a>
       <a className='first fs-5 text-secondary' href="/Page1" onMouseOver={(e) => e.target.style.backgroundColor='#0B1A48 '} onMouseOut={(e) => e.target.style.backgroundColor='transparent '}>
           1
         </a>
@@ -205,7 +201,7 @@ const Blog = () => {
       <a className='first fs-5 text-secondary' href="/Page4" onMouseOver={(e) => e.target.style.backgroundColor='#0B1A48'} onMouseOut={(e) => e.target.style.backgroundColor='transparent'}>
           4
         </a>
-      <a className='first fs-5 text-secondary' href="/Page5" onMouseOver={(e) => e.target.style.backgroundColor='#0B1A48'} onMouseOut={(e) => e.target.style.backgroundColor='transparent'}>
+      <a className='first fs-5 text-secondary' href="Page5" onMouseOver={(e) => e.target.style.backgroundColor='#0B1A48'} onMouseOut={(e) => e.target.style.backgroundColor='transparent'}>
           5
         </a>
       <a className='first fs-5 text-secondary' href="#" onMouseOver={(e) => e.target.style.backgroundColor='#0B1A48'} onMouseOut={(e) => e.target.style.backgroundColor='transparent'}>
@@ -218,17 +214,17 @@ const Blog = () => {
           8
         </a>
       
-     <a className=' text-primary' href="/Page1">  Next Page<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-          </svg></a>
+      <a className=' text-primary' href="/Page5"> Next Page <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg></a>
     </div>
     </div>
   </div>
-  </div>
+</div>
     </div>
-    // ......................................................finish.....................................
-    
+
+    </div>
   )
 }
 
-export default Blog
+export default Page4

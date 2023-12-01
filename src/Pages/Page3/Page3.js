@@ -1,33 +1,31 @@
 import React from 'react'
-import './Blog.css'
-import ips from '../../Assets/ips.webp'
-import ips2 from '../../Assets/ips2.webp'
-import ips3 from '../../Assets/ips3.webp'
-import ips4 from '../../Assets/ips4.webp'
-import ips5 from '../../Assets/ips5.webp'
-import ips6 from '../../Assets/ips6.webp'
+import './Page3.css'
 import ips7 from '../../Assets/ips7.webp'
 import ips8 from '../../Assets/ips8.webp'
 import ips9 from '../../Assets/ips9.webp'
-
-
+import ips10 from '../../Assets/ips10.webp'
+import ips14 from '../../Assets/ips14.webp'
+import ips15 from '../../Assets/ips15.webp'
+import ips16 from '../../Assets/ips16.webp'
+import ips17 from '../../Assets/ips17.webp'
+import ips19 from '../../Assets/ips19.webp'
 
 
 const blogData = [
   {
     id: 1,
-    imageSrc: ips,
-    title: 'Tips For The Best Laptop Rentals Near Me',
-    content: 'Introduction Welcome to Rental Plaza, your ultimate destination for a seamless laptop rental experience right at your doorstep. In an era dominated by flexibility, affordability, and […]',
+    imageSrc: ips15,
+    title: ' Smart Savings: Calculating the Cost-Benefit of IT Equipment Rentals ',
+    content: 'In today’s dynamic business landscape, cost optimization is a key factor for sustainable growth. For companies seeking to bolster their operational efficiency without compromising on performance, […]',
     likes: 0,
     date: 'November 16, 2023',
     
   },
   {
     id: 1,
-    imageSrc: ips2,
-    title: 'MacBook Pro M3 on Rent: Unleash Your Creativity',
-    content: 'Welcome to the future of creative workstations, where performance meets portability. In an era dominated by ever-evolving technology, the MacBook Pro M3 stands as a true […]',
+    imageSrc: ips16,
+    title: ' The Evolution of IT Equipment Rentals in India: A Look Back at Rental Plaza’s Journey ',
+    content: ' The world of technology has witnessed a remarkable transformation over the past few decades, and India has been no exception. As businesses and individuals embraced the […] ',
     likes: 0,
     date: 'November 18, 2023',
     
@@ -35,9 +33,9 @@ const blogData = [
  
   {
     id: 1,
-    imageSrc: ips3,
-    title: 'How to Rent a Server in Gurugram',
-    content: 'Gurugram, also known as Gurgaon, has evolved into a thriving corporate hub in India. With a bustling economy and a dynamic business environment, the demand for […]',
+    imageSrc: ips17,
+    title: 'Temporary Office Setups: Creating Functional Workspaces with Computer Rentals',
+    content: ' In the modern business landscape, flexibility and adaptability are essential qualities for success. Project-based work, remote collaborations, and short-term assignments have become commonplace, requiring organizations to […] ',
     likes: 0,
     date: 'November 10, 2023',
     
@@ -45,9 +43,9 @@ const blogData = [
  
   {
     id: 1,
-    imageSrc: ips4,
-    title: 'How to Rent Laptop in Gurugram',
-    content:'In the bustling city of Gurugram, where innovation and opportunities abound, having the right tools at your disposal is crucial for personal and professional success. Laptops […]',
+    imageSrc: ips7,
+    title: 'Temporary Workstations: The Benefits of Computer Rentals for Project-Based Teams ',
+    content:'In the fast-paced world of business, project-based teams often find themselves in need of efficient and flexible solutions to tackle short-term tasks and assignments. One such […] ',
     likes: 0,
     date: 'October 10, 2023',
     
@@ -55,9 +53,9 @@ const blogData = [
  
   {
     id: 1,
-    imageSrc: ips5,
-    title: 'How to Rent a Desktop PC in Gurugram with Rental Plaza',
-    content: 'Welcome to the vibrant city of Gurugram, a place where businesses and individuals are always on the go. In this fast-paced environment, having access to high-performance […]',
+    imageSrc: ips19,
+    title: 'MacBook Rentals for Software Development: Optimizing Coding and Development',
+    content: ' In the realm of software development, having the right tools at your disposal can make a world of difference in your productivity and the quality of […] ',
     likes: 0,
     date: 'November 25, 2023',
     
@@ -65,9 +63,9 @@ const blogData = [
  
   {
     id: 1,
-    imageSrc: ips6,
-    title: 'How to Rent a MacBook in Gurugram with Rental Plaza',
-    content: 'Gurugram, often referred to as the Millennium City, is India’s thriving hub for technology and innovation. In this dynamic and competitive environment, businesses and individuals require […]',
+    imageSrc: ips14,
+    title:' Enhance Your Multimedia Projects: MacBook Rentals for Video Editing',
+    content: 'In today’s digital age, video editing has become an essential skill for content creators, filmmakers, and businesses alike. Whether you’re a professional videographer or a creative […] ',
     likes: 3,
     date: 'November 16, 2023',
     
@@ -75,9 +73,9 @@ const blogData = [
  
   {
     id: 1,
-    imageSrc: ips7,
-    title: 'Maximizing Efficiency: How Renting Desktops Benefits Mohali IT Companies',
-    content: 'In the dynamic landscape of information technology, efficiency is the linchpin that drives productivity and competitiveness. For IT companies in Mohali, the choice between purchasing and […]',
+    imageSrc: ips10,
+    title: ' The Benefits of Renting Laptops for Remote Work and Flexibility',
+    content: 'In recent times, the concept of work has evolved, and remote work has become an integral part of many businesses. With the rise of flexible work […] ',
     likes: 0,
     date: 'November 16, 2023',
     
@@ -86,8 +84,8 @@ const blogData = [
   {
     id: 1,
     imageSrc: ips8,
-    title: 'IT Management Simplified: The Benefits of Renting Laptops for Chandigarh Businesses',
-    content: 'In today’s fast-paced business world, staying competitive often hinges on having access to the latest technology. For businesses in Chandigarh, laptops are the lifeblood of daily […]',
+    title: 'Unleash Your Creativity with MacBook M1 Pro Rentals',
+    content: ' In the dynamic world of technology, staying ahead of the curve is essential, especially for creative professionals. The advent of the MacBook M1 Pro has introduced […]  ',
     likes: 0,
     date: 'November 16, 2023',
     
@@ -96,8 +94,8 @@ const blogData = [
   {
     id: 1,
     imageSrc: ips9,
-    title: 'Affordable Access to Cutting-Edge Technology: MacBook M1 Pro Rentals in Mohali',
-    content: 'In today’s fast-paced digital world, staying ahead of the curve often requires having access to cutting-edge technology. For professionals, students, and creatives in Mohali, the MacBook […]',
+    title: ' Boost Your Productivity: Benefits of High-End Laptops ',
+    content: ' In today’s fast-paced digital world, having the right tools at your disposal can significantly impact your productivity. High-end laptops offer a range of features and capabilities […] ',
     likes: 0,
     date: 'November 16, 2023',
     
@@ -105,9 +103,10 @@ const blogData = [
  
 ];
 
-
-const Blog = () => {
+const Page3 = () => {
   return (
+    <div>
+             
     <div>
       <div className='container-fluid design'>
       <div className='container '>
@@ -122,7 +121,7 @@ const Blog = () => {
       </div>
       </div>
 
-      {/* .............................finish Title.................................................................................. */}
+      {/* .............................................................finish Title...................................................................... */}
 
 <div className='container-fluid design'>
 <div className='container '>
@@ -182,7 +181,7 @@ const Blog = () => {
 </div>
 </div>
 
-{/* .......................................................finish-body................................................................................... */}
+{/* .........................................................................finish-body............................................................. */}
 
 
 <div className='containe design'>
@@ -190,9 +189,9 @@ const Blog = () => {
     <div className='col-sm-3 mt-5'></div>
     <div className='col-sm-9 mt-5 '>
     <div className="pagination">
-      <a className='text-primary  ' href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+      <a className='text-primary  ' href="/Page2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-</svg>Prev  page</a>
+</svg> Prev page</a>
       <a className='first fs-5 text-secondary' href="/Page1" onMouseOver={(e) => e.target.style.backgroundColor='#0B1A48 '} onMouseOut={(e) => e.target.style.backgroundColor='transparent '}>
           1
         </a>
@@ -218,17 +217,20 @@ const Blog = () => {
           8
         </a>
       
-     <a className=' text-primary' href="/Page1">  Next Page<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-          </svg></a>
+      <a className=' text-primary' href="/Page4"> Next Page <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg></a>
     </div>
     </div>
   </div>
-  </div>
+</div>
     </div>
-    // ......................................................finish.....................................
+
     
+
+
+    </div>
   )
 }
 
-export default Blog
+export default Page3

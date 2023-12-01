@@ -1,113 +1,111 @@
 import React from 'react'
-import './Blog.css'
-import ips from '../../Assets/ips.webp'
-import ips2 from '../../Assets/ips2.webp'
+import './Page1.css'
 import ips3 from '../../Assets/ips3.webp'
-import ips4 from '../../Assets/ips4.webp'
-import ips5 from '../../Assets/ips5.webp'
-import ips6 from '../../Assets/ips6.webp'
 import ips7 from '../../Assets/ips7.webp'
 import ips8 from '../../Assets/ips8.webp'
 import ips9 from '../../Assets/ips9.webp'
-
-
-
+import ips10 from '../../Assets/ips10.webp'
+import ips11 from '../../Assets/ips11.webp'
+import ips12 from '../../Assets/ips12.webp'
+import ips13 from '../../Assets/ips13.webp'
+import ips14 from '../../Assets/ips14.webp'
 
 const blogData = [
-  {
-    id: 1,
-    imageSrc: ips,
-    title: 'Tips For The Best Laptop Rentals Near Me',
-    content: 'Introduction Welcome to Rental Plaza, your ultimate destination for a seamless laptop rental experience right at your doorstep. In an era dominated by flexibility, affordability, and […]',
-    likes: 0,
-    date: 'November 16, 2023',
-    
-  },
-  {
-    id: 1,
-    imageSrc: ips2,
-    title: 'MacBook Pro M3 on Rent: Unleash Your Creativity',
-    content: 'Welcome to the future of creative workstations, where performance meets portability. In an era dominated by ever-evolving technology, the MacBook Pro M3 stands as a true […]',
-    likes: 0,
-    date: 'November 18, 2023',
-    
-  },
- 
-  {
-    id: 1,
-    imageSrc: ips3,
-    title: 'How to Rent a Server in Gurugram',
-    content: 'Gurugram, also known as Gurgaon, has evolved into a thriving corporate hub in India. With a bustling economy and a dynamic business environment, the demand for […]',
-    likes: 0,
-    date: 'November 10, 2023',
-    
-  },
- 
-  {
-    id: 1,
-    imageSrc: ips4,
-    title: 'How to Rent Laptop in Gurugram',
-    content:'In the bustling city of Gurugram, where innovation and opportunities abound, having the right tools at your disposal is crucial for personal and professional success. Laptops […]',
-    likes: 0,
-    date: 'October 10, 2023',
-    
-  },
- 
-  {
-    id: 1,
-    imageSrc: ips5,
-    title: 'How to Rent a Desktop PC in Gurugram with Rental Plaza',
-    content: 'Welcome to the vibrant city of Gurugram, a place where businesses and individuals are always on the go. In this fast-paced environment, having access to high-performance […]',
-    likes: 0,
-    date: 'November 25, 2023',
-    
-  },
- 
-  {
-    id: 1,
-    imageSrc: ips6,
-    title: 'How to Rent a MacBook in Gurugram with Rental Plaza',
-    content: 'Gurugram, often referred to as the Millennium City, is India’s thriving hub for technology and innovation. In this dynamic and competitive environment, businesses and individuals require […]',
-    likes: 3,
-    date: 'November 16, 2023',
-    
-  },
- 
-  {
-    id: 1,
-    imageSrc: ips7,
-    title: 'Maximizing Efficiency: How Renting Desktops Benefits Mohali IT Companies',
-    content: 'In the dynamic landscape of information technology, efficiency is the linchpin that drives productivity and competitiveness. For IT companies in Mohali, the choice between purchasing and […]',
-    likes: 0,
-    date: 'November 16, 2023',
-    
-  },
- 
-  {
-    id: 1,
-    imageSrc: ips8,
-    title: 'IT Management Simplified: The Benefits of Renting Laptops for Chandigarh Businesses',
-    content: 'In today’s fast-paced business world, staying competitive often hinges on having access to the latest technology. For businesses in Chandigarh, laptops are the lifeblood of daily […]',
-    likes: 0,
-    date: 'November 16, 2023',
-    
-  },
- 
-  {
-    id: 1,
-    imageSrc: ips9,
-    title: 'Affordable Access to Cutting-Edge Technology: MacBook M1 Pro Rentals in Mohali',
-    content: 'In today’s fast-paced digital world, staying ahead of the curve often requires having access to cutting-edge technology. For professionals, students, and creatives in Mohali, the MacBook […]',
-    likes: 0,
-    date: 'November 16, 2023',
-    
-  },
- 
-];
+    {
+      id: 1,
+      imageSrc: ips10,
+      title: 'The Role of Rental Laptops in Election Data Management',
+      content: 'In the dynamic world of politics, data is the linchpin that drives campaign strategies, ensures transparency, and ultimately shapes the outcome of elections. The state of […]',
+      likes: 0,
+      date: 'November 16, 2023',
+      
+    },
+    {
+      id: 1,
+      imageSrc: ips11,
+      title: 'Empowering Rajasthan Elections with Laptop Rentals: A Technological Revolution',
+      content: 'The heartbeat of democracy in India, the state of Rajasthan, is gearing up for another pivotal election. As the political landscape evolves, so do the strategies […]',
+      likes: 0,
+      date: 'November 18, 2023',
+      
+    },
+   
+    {
+      id: 1,
+      imageSrc: ips3,
+      title: 'Rental Plaza’s Commitment to Democracy: Providing Bulk Computers and Laptops for Indian State Elections',
+      content: 'GDemocracy thrives when every citizen’s voice is heard and every vote counts. In the world’s largest democracy, India, conducting elections is a colossal task, especially at […] ',
+      likes: 0,
+      date: 'November 10, 2023',
+      
+    },
+   
+    {
+      id: 1,
+      imageSrc: ips12,
+      title: ' How Rental Laptops Offer Flexibility in Dynamic Election Environments',
+      content: 'In the fast-paced world of election campaigns, flexibility is not just an advantage; it’s a necessity. Campaigns are dynamic, with ever-changing needs and unexpected challenges. To […]',
+      likes: 0,
+      date: 'October 10, 2023',
+      
+    },
+   
+    {
+      id: 1,
+      imageSrc: ips13,
+      title: 'How to Rent a Desktop PC in Gurugram with Rental Plaza',
+      content: 'Welcome to the vibrant city of Gurugram, a place where businesses and individuals are always on the go. In this fast-paced environment, having access to high-performance […]',
+      likes: 0,
+      date: 'November 25, 2023',
+      
+    },
+   
+    {
+      id: 1,
+      imageSrc: ips14,
+      title: 'Election Security and Rental Laptops: A Winning Combination ',
+      content:  ' Elections are the cornerstone of any democracy, and ensuring their security and integrity is paramount. In an age where technology plays an increasingly significant role in […] ',
+      likes: 3,
+      date: 'November 16, 2023',
+      
+    },
+   
+    {
+      id: 1,
+      imageSrc: ips7,
+      title: ' 5 Benefits of Rental Laptops in Election Campaigns ',
+      content: 'Election campaigns are the lifeblood of democracy. They require meticulous planning, flawless execution, and efficient management to convey a candidate’s message to the masses. In the […] ',
+      likes: 0,
+      date: 'November 16, 2023',
+      
+    },
+   
+    {
+      id: 1,
+      imageSrc: ips8,
+      title: ' The Pivotal Role of Rental Laptops in Indian Elections ',
+      content: 'In a country as vast and diverse as India, elections are monumental events that shape the nation’s future. The sheer scale of Indian elections, with millions […] ',
+      likes: 0,
+      date: 'November 16, 2023',
+      
+    },
+   
+    {
+      id: 1,
+      imageSrc: ips9,
+      title: 'Business Benefits: Why Companies Choose MacBook Pro Rentals for Employees ',
+      content: 'In today’s fast-paced business landscape, technology plays a pivotal role in determining a company’s success. As the demand for flexible and efficient solutions continues to rise, […] ',
+      likes: 0,
+      date: 'November 16, 2023',
+      
+    },
+   
+  ];
 
-
-const Blog = () => {
+const Page1 = () => {
   return (
+    <div>
+             
     <div>
       <div className='container-fluid design'>
       <div className='container '>
@@ -122,7 +120,7 @@ const Blog = () => {
       </div>
       </div>
 
-      {/* .............................finish Title.................................................................................. */}
+      {/* ..........................................................finish Title................................................................ */}
 
 <div className='container-fluid design'>
 <div className='container '>
@@ -182,7 +180,7 @@ const Blog = () => {
 </div>
 </div>
 
-{/* .......................................................finish-body................................................................................... */}
+{/* ..................................................................finish-body........................................................................ */}
 
 
 <div className='containe design'>
@@ -190,9 +188,9 @@ const Blog = () => {
     <div className='col-sm-3 mt-5'></div>
     <div className='col-sm-9 mt-5 '>
     <div className="pagination">
-      <a className='text-primary  ' href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+      <a className='text-primary  ' href="/Blog"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-</svg>Prev  page</a>
+</svg>Prev page</a>
       <a className='first fs-5 text-secondary' href="/Page1" onMouseOver={(e) => e.target.style.backgroundColor='#0B1A48 '} onMouseOut={(e) => e.target.style.backgroundColor='transparent '}>
           1
         </a>
@@ -218,17 +216,18 @@ const Blog = () => {
           8
         </a>
       
-     <a className=' text-primary' href="/Page1">  Next Page<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-          </svg></a>
+      <a className=' text-primary' href="/Page2"> Next Page<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg></a>
     </div>
     </div>
   </div>
-  </div>
+</div>
     </div>
-    // ......................................................finish.....................................
-    
+
+
+    </div>
   )
 }
 
-export default Blog
+export default Page1
