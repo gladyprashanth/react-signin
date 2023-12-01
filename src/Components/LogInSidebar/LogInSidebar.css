@@ -1,0 +1,17 @@
+.custom-placeholder::placeholder {
+    color: red;
+  }
+
+ .Login_button_vj button{
+    color: white;
+    background-color: #2A27E9;
+    border: none;
+    padding: 5px 65px;
+    border-radius: 5px;
+ } 
+
+ .lostpaswrd{
+    color: #918B81;
+    cursor: pointer;
+ }
+ 
