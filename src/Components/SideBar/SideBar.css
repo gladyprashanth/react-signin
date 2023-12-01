@@ -1,0 +1,51 @@
+
+
+.BottomHeader_inner_container{
+    /* border: 1px solid red; */
+    width: 95%;
+    height: 100%;
+    padding: 1rem;
+    /* display: flex; */
+    /* gap: 1.5rem; */
+}
+
+.BottomHeader{
+    /* border: 1px solid red; */
+    height: 20%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 2px;
+    cursor: pointer;
+    /* padding: 0.5rem; */
+}
+
+.BottomHeaders_options_image{
+    /* border: 1px solid red; */
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.BottomHeader_dropdown{
+    /* border: 1px solid red; */
+    width: 15px;
+    height: 15px;
+    /* overflow: hidden; */
+}
+
+.BottomHeaderss_options_images{
+    /* border: 1px solid red; */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.BottomHeader:hover{
+    border-bottom: 3px solid blueviolet;
+    /* transition: 0.1s; */
+
+    .BottomHeader_dropdown{
+        transform: rotate(0.5turn);
+        transition: 1s;
+    }
+}

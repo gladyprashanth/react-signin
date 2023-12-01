@@ -6,6 +6,7 @@ import Products from './Pages/Products/Products';
 import SingleProduct from './Pages/SingleProduct/SingleProduct';
 import Blog from './Pages/Blog/Blog';
 import ContactUs from './Pages/ContactUs/ContactUs';
+import SideBar from './Components/SideBar/SideBar';
 
 function App() {
 
@@ -34,7 +35,11 @@ function App() {
         element: <ContactUs />
       },
     ]
-  }])
+  },
+  {
+    path: "/sidebar",
+    element: <SideBar />
+  },])
 
   return (
     <div>
