@@ -6,6 +6,8 @@ import Products from './Pages/Products/Products';
 import SingleProduct from './Pages/SingleProduct/SingleProduct';
 import Blog from './Pages/Blog/Blog';
 import ContactUs from './Pages/ContactUs/ContactUs';
+import SubBlog from './Components/SubBlogs/SubBlog';
+import LogInSidebar from './Components/LogInSidebar/LogInSidebar';
 
 function App() {
 
@@ -30,10 +32,17 @@ function App() {
         element: <Blog />
       },
       {
+        path: "/blog/indi",
+        element: <SubBlog />
+      },
+      {
         path: "/contact-us",
         element: <ContactUs />
       },
     ]
+  },{
+    path:"/login-sidebar",
+    element: <LogInSidebar/>
   }])
 
   return (
