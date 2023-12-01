@@ -1,8 +1,14 @@
 import React from "react";
 import "./AboutRental.css";
 import img_2 from "../../Assets/img_2.jpg";
-import img_3 from "../../Assets/img_3.jpg";
+import img_35 from "../../Assets/img_35.webp";
+import { MdOutlineShoppingCart } from "react-icons/md";
+import { FiLink } from "react-icons/fi";
 import { IoMdHeartEmpty } from "react-icons/io";
+import { VscOpenPreview } from "react-icons/vsc";
+
+
+// import { IoMdHeartEmpty } from "react-icons/io";
 
 const AboutRental = () => {
   return (
@@ -19,9 +25,16 @@ const AboutRental = () => {
           </div>
           <div className="col-sm-3 mt-5  ">
             <div
-              class="card border-0"
+              class="card border-0 normal_1"
               style={{ width: "18rem", height: "32rem" }}
             >
+               <div className="normal circle4 position-absolute ">
+                                    <div className="circle4">  <MdOutlineShoppingCart /> </div>
+                                    <div className="circle4">   <FiLink />  </div>
+                                    <div className="circle4">  <IoMdHeartEmpty /> </div>
+                                    <div className="circle4">  <VscOpenPreview /> </div>
+                                </div>
+
               <img src={img_2} class="card-img-top " alt="..." />
               <div class="card-body">
                 <h5 class="card-title">
@@ -40,10 +53,16 @@ const AboutRental = () => {
           </div>
           <div className="col-sm-3 mt-5">
             <div
-              class="card border-0"
+              class="card border-0 normal_2"
               style={{ width: "18rem", height: "32rem" }}
             >
-              <img src={img_3} class="card-img-top" alt="..." />
+              <div className="normal circle5 position-absolute ">
+                                    <div className="circle5">  <MdOutlineShoppingCart /> </div>
+                                    <div className="circle5">   <FiLink />  </div>
+                                    <div className="circle5">  <IoMdHeartEmpty /> </div>
+                                    <div className="circle5">  <VscOpenPreview /> </div>
+                                </div>
+              <img src={img_35} class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">
                   Apple MacBook Pro on Rent | M2 Max chip with 12‑core CPU and

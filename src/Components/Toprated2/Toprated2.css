@@ -1,3 +1,22 @@
 .top1{
     background-color: #f7f7f7;
 }
+.circle3 {
+    margin-left: 110px;
+    cursor: pointer;
+    top: 10px;
+    justify-content: right;
+    align-items: right  ;
+    /* width: 540px;  */
+    height: 40px;
+    /* background-color: transparent;   */
+    opacity: 0; 
+    transition: opacity 0.2s ease; /* Add a smooth transition effect */
+  }
+  
+  .circle3 svg {
+    color: black; /* Change the icon color as desired */
+  } 
+  .desktop_card:hover .circle3 {
+    opacity: 1; /* Adjust opacity to fully visible on hover */
+  }

@@ -6,6 +6,8 @@ import Footer from '../Footer/Footer'
 import TopHeader from '../Header/TopHeader/TopHeader'
 import AdsHeader from '../Header/AdsHeader/AdsHeader'
 import BottomHeader from '../Header/BottomHeader/BottomHeader'
+import Toprated from '../Toprated/Toprated'
+import Toprated2 from '../Toprated2/Toprated2'
 
 
 
@@ -19,7 +21,7 @@ const MainBody = () => {
       <Header />
       <BottomHeader />
       <div className='MainBody_contents'>
-        
+             
         <Outlet />
         <Footer />
       </div>

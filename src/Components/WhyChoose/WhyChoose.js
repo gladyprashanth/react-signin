@@ -49,7 +49,7 @@ const WhyChoose = () => {
             <div className="row">
               {cardDataArray.map((cardData) => (
                 <div key={cardData.id} className="col-sm-4">
-                  <div className="card" style={{ width: "22rem" }}>
+                  <div className="card mt-4 border-0" style={{ width: "22rem" }}>
                     <img
                       className="card-img-top"
                       src={cardData.imgSrc}

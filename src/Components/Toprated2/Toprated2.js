@@ -10,6 +10,11 @@ import img_32 from "../../Assets/img_32.webp"
 import img_33 from "../../Assets/img_33.webp"
 import img_34 from "../../Assets/img_34.webp"
 
+import { MdOutlineShoppingCart } from "react-icons/md";
+import { FiLink } from "react-icons/fi";
+import { IoMdHeartEmpty } from "react-icons/io";
+import { VscOpenPreview } from "react-icons/vsc";
+
 
 const Toprated2 = () => {
     const desktops = [
@@ -76,6 +81,12 @@ const Toprated2 = () => {
         {desktops.map(desktop => (
           <div key={desktop.id} className="col-sm-3 mt-3 ">
             <div className="card desktop_card border-0  " style={{ width: '15rem', height: '30rem' }}>
+            <div className="desktop_react_icons circle3 position-absolute ">
+                                    <div className="circle3">  <MdOutlineShoppingCart /> </div>
+                                    <div className="circle3">   <FiLink />  </div>
+                                    <div className="circle3">  <IoMdHeartEmpty /> </div>
+                                    <div className="circle3">  <VscOpenPreview /> </div>
+                                </div>
               <img src={desktop.image} className="desktop_pc_one  " alt="Desktop" />
               <h4 className='text-center' >{desktop.title}</h4>
               <br />

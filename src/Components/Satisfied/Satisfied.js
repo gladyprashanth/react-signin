@@ -69,20 +69,20 @@ const Satisfied = () => {
               <h1 className="text-center fs-2 mt-5">Satisfied customers</h1>
             </div>
 
-            <div className="col-sm-3 mt-5">
+            <div className="col-sm-2 mt-5 ">
               <h3>Excellent</h3>
-              <span className="stars fs-5 text-warning">
+              <span className="stars fs-5 mt-3 text-warning">
                 <FaStar />
                 <FaStar />
                 <FaStar />
                 <FaStar />
                 <FaStar />
               </span>
-              <p className='text-start' >Based on 66 reviews</p>
-              <img className="img-fluid w-50" src={img_7} alt="google logo" />
+              <p className='text-start mt-3' >Based on 66 reviews</p>
+              <img className="img-fluid w-75" src={img_7} alt="google logo" />
             </div>
 {/* caroseal test start */}
-            <div className="col-sm-9 mt-5">
+            <div className="col-sm-10 mt-5 ">
               
 
 
@@ -183,7 +183,7 @@ const Satisfied = () => {
 
             </div>
                 <div className="col-3">
-            <a href="#" className="btn btn-primary  btn-lg mt-5 ">Write Review</a>
+            <a href="#" className="btn btn-primary  btn-lg mt-5   ">Write Review</a>
 
             </div>
           </div>
