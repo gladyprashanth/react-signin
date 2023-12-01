@@ -44,7 +44,7 @@ const Bestservices = () => {
         {iconData.map((icon, index) => (
           <div key={index} className="col-sm-2 mx-3 text-center">
             <figure className="zoom ">
-              <img src={icon.image} alt={icon.title} />
+             <img className='service' src={icon.image} alt={icon.title} /> 
             </figure>
             <h5 className='mt-3 service '>{icon.title}</h5>
             <p>{icon.description}</p>

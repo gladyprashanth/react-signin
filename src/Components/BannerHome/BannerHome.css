@@ -30,6 +30,7 @@
   }
   .slide{
     background: url(../../Assets/Backgrnd.png);
+    background-size: cover;
   }
   
 
