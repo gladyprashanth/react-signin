@@ -13,6 +13,8 @@ import Page3 from './Pages/Page3/Page3';
 import Page4 from './Pages/Page4/Page4';
 import Page5 from './Pages/Page5/Page5';
 
+import LogInSidebar from './Components/LogInSidebar/LogInSidebar';
+import SideBar from './Components/SideBar/SideBar';
 
 function App() {
 
@@ -35,6 +37,10 @@ function App() {
       {
         path: "/blog",
         element: <Blog />
+      },
+      {
+        path: "/blog/indi",
+        element: <SubBlog />
       },
       {
         path: "/contact-us",
@@ -67,7 +73,11 @@ function App() {
         element:<Page5/>
       }
     ]
-  }])
+  },
+  {
+    path: "/sidebar",
+    element: <SideBar />
+  },])
 
   return (
     <div>

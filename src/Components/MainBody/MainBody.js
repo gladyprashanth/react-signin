@@ -8,9 +8,6 @@ import AdsHeader from '../Header/AdsHeader/AdsHeader'
 import BottomHeader from '../Header/BottomHeader/BottomHeader'
 import SubBlog from '../SubBlogs/SubBlog'
 
-
-
-
 const MainBody = () => {
 
   return (
