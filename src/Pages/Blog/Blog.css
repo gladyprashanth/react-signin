@@ -32,8 +32,6 @@
     height: 100px; 
     opacity: 1; 
  
-
-
 }
 
 .round{
@@ -60,9 +58,6 @@
     border: none;
 }
 
-
-
-
 .pagination {
     display: inline-block;
   }
@@ -79,5 +74,6 @@
     border-radius: 10px;
      /* color: #0B1A48; */
   }
+
 
  
