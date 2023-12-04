@@ -6,6 +6,8 @@ import Products from './Pages/Products/Products';
 import SingleProduct from './Pages/SingleProduct/SingleProduct';
 import Blog from './Pages/Blog/Blog';
 import ContactUs from './Pages/ContactUs/ContactUs';
+import SubBlog from './Components/SubBlogs/SubBlog';
+import LogInSidebar from './Components/LogInSidebar/LogInSidebar';
 import SideBar from './Components/SideBar/SideBar';
 
 function App() {
@@ -29,6 +31,10 @@ function App() {
       {
         path: "/blog",
         element: <Blog />
+      },
+      {
+        path: "/blog/indi",
+        element: <SubBlog />
       },
       {
         path: "/contact-us",

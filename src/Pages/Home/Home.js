@@ -9,6 +9,10 @@ import BannerHome from '../../Components/BannerHome/BannerHome';
 import Welook from '../../Components/Welook/Welook';
 import Form from '../../Components/Form/Form';
 import Ourpresence from '../../Components/Ourpresence/Ourpresence';
+import Highend from '../../Components/Highend/Highend';
+import Toprated from '../../Components/Toprated/Toprated';
+import Toprated2 from '../../Components/Toprated2/Toprated2';
+import Timer from '../../Components/Timer/Timer';
 
 
 const Home = () => {
@@ -17,7 +21,10 @@ const Home = () => {
       <BannerHome />
       <Bestservices />
       <ITEquipment />
-      
+      <Highend />
+      <Toprated />
+      <Timer />
+      <Toprated2 />
       <AboutRental/>
       <WhyChoose />
       <Satisfied />
