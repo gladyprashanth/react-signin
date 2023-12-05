@@ -16,6 +16,7 @@ const blogData = [
       content: ' In today’s dynamic business landscape, short-term projects have become a common practice for organizations seeking to remain agile and responsive to changing market demands. Whether it’s […] ',
       likes: 0,
       date: 'November 16, 2023',
+      read:'Read More',
       
     },
     {
@@ -25,6 +26,7 @@ const blogData = [
       content: 'In the fast-paced world of business, corporate training and events play a pivotal role in enhancing skills, knowledge, and networking opportunities. As organizations strive for growth […]',
       likes: 0,
       date: 'November 18, 2023',
+      read:'Read More',
       
     },
    
@@ -35,6 +37,7 @@ const blogData = [
       content: 'In the fast-paced world of graphic design, having access to a powerful and reliable computer is essential for unleashing creativity and bringing visions to life. For […] ',
       likes: 0,
       date: 'November 10, 2023',
+      read:'Read More',
       
     },
    
@@ -45,6 +48,7 @@ const blogData = [
       content:'In today’s fast-paced business landscape, small businesses are faced with a critical decision when it comes to acquiring IT equipment. The choice between buying and renting […] ',
       likes: 0,
       date: 'October 10, 2023',
+      read:'Read More',
       
     },
    
@@ -55,6 +59,7 @@ const blogData = [
       content: 'In today’s fast-paced business landscape, staying technologically competitive is essential for success. Small and medium-sized businesses in Mohali are increasingly turning to desktop rentals as a […]',
       likes: 0,
       date: 'November 25, 2023',
+      read:'Read More',
       
     },
    
@@ -65,6 +70,7 @@ const blogData = [
       content: ' As the way we work continues to evolve, Noida’s business landscape is witnessing a shift towards hybrid work models, blending in-office and remote work arrangements. With […] ',
       likes: 3,
       date: 'November 16, 2023',
+      read:'Read More',
       
     },
    
@@ -75,6 +81,7 @@ const blogData = [
       content: 'Seasonal fluctuations in business demand are a common challenge faced by many industries. Whether it’s during the holiday shopping season, tax season, or other peak periods, […] ',
       likes: 0,
       date: 'November 16, 2023',
+      read:'Read More',
       
     },
    
@@ -85,6 +92,7 @@ const blogData = [
       content: ' In today’s fast-paced corporate landscape, staying ahead of the competition requires efficient and streamlined business operations. One crucial aspect that plays a significant role in achieving […] ',
       likes: 0,
       date: 'November 16, 2023',
+      read:'Read More',
       
     },
    
@@ -110,9 +118,9 @@ const Page4 = () => {
         <div className='row'>
           <div className='col-sm-12 text-center mt-4 '>
             <h1 className='blog ' >Blog</h1>
-            <a className='decration text-secondary' href=''>Home <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right mx-3" viewBox="0 0 16 16">
+            <a className='decration text-secondary' href='/'>Home </a> <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right mx-3" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-</svg></span> Blog</a>
+</svg></span><span className='text-secondary'> Blog</span>
           </div>
         </div>
       </div>
@@ -125,8 +133,8 @@ const Page4 = () => {
 <div className='row '>
       {blogData.map((blog) => (
         <div key={blog.id} className='col-sm-4 mt-5 '>
-          <div className="card search " style={{ width: "22rem" }}>
-           <a href='' ><img src={blog.imageSrc} className="card-img-top" alt="..." /> </a>
+          <div className="card search " style={{ width: "100" }}>
+           <a href='' ><img src={blog.imageSrc} className="card-img-top p-2" alt="..." /> </a>
             <div className="boot_icon ">
                                     <div className="round fs-4  ">
                                    <a href=''> <svg className='  text-black ' xmlns="http://www.w3.org/2000/svg" width="40" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
@@ -149,7 +157,7 @@ const Page4 = () => {
 </svg> {blog.date}</span></p>
           
             <div className="card-body">
-              <h5 className="card-title text-start fs-4">{blog.title}</h5>
+              <h5 className="card-title text-start fs-4 fix">{blog.title}</h5>
               <p className="card-text text-start text-secondary">{blog.content}</p>
             </div>
             <div className="card-body">
@@ -167,7 +175,7 @@ const Page4 = () => {
                         <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
                         <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
                         <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
-                      </svg>  Read More </a>
+                      </svg>  {blog.read}  </a>
                  </div>
               </div>
             </div>

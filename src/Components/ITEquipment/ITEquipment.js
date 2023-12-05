@@ -7,6 +7,8 @@ import Server from '../../Assets/laptop_4.webp';
 import Printer from '../../Assets/laptop_5.webp';
 import Apple from '../../Assets/laptop_6.webp';
 
+
+
 const equipmentData = [
   {
     title: 'LAPTOP ON RENT',

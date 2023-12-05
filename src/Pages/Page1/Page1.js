@@ -18,6 +18,7 @@ const blogData = [
       content: 'In the dynamic world of politics, data is the linchpin that drives campaign strategies, ensures transparency, and ultimately shapes the outcome of elections. The state of […]',
       likes: 0,
       date: 'November 16, 2023',
+      read:'Read More',
       
     },
     {
@@ -27,6 +28,7 @@ const blogData = [
       content: 'The heartbeat of democracy in India, the state of Rajasthan, is gearing up for another pivotal election. As the political landscape evolves, so do the strategies […]',
       likes: 0,
       date: 'November 18, 2023',
+      read:'Read More',
       
     },
    
@@ -37,6 +39,7 @@ const blogData = [
       content: 'GDemocracy thrives when every citizen’s voice is heard and every vote counts. In the world’s largest democracy, India, conducting elections is a colossal task, especially at […] ',
       likes: 0,
       date: 'November 10, 2023',
+      read:'Read More',
       
     },
    
@@ -47,6 +50,7 @@ const blogData = [
       content: 'In the fast-paced world of election campaigns, flexibility is not just an advantage; it’s a necessity. Campaigns are dynamic, with ever-changing needs and unexpected challenges. To […]',
       likes: 0,
       date: 'October 10, 2023',
+      read:'Read More',
       
     },
    
@@ -57,6 +61,7 @@ const blogData = [
       content: 'Welcome to the vibrant city of Gurugram, a place where businesses and individuals are always on the go. In this fast-paced environment, having access to high-performance […]',
       likes: 0,
       date: 'November 25, 2023',
+      read:'Read More',
       
     },
    
@@ -67,6 +72,7 @@ const blogData = [
       content:  ' Elections are the cornerstone of any democracy, and ensuring their security and integrity is paramount. In an age where technology plays an increasingly significant role in […] ',
       likes: 3,
       date: 'November 16, 2023',
+      read:'Read More',
       
     },
    
@@ -77,6 +83,7 @@ const blogData = [
       content: 'Election campaigns are the lifeblood of democracy. They require meticulous planning, flawless execution, and efficient management to convey a candidate’s message to the masses. In the […] ',
       likes: 0,
       date: 'November 16, 2023',
+      read:'Read More',
       
     },
    
@@ -87,6 +94,7 @@ const blogData = [
       content: 'In a country as vast and diverse as India, elections are monumental events that shape the nation’s future. The sheer scale of Indian elections, with millions […] ',
       likes: 0,
       date: 'November 16, 2023',
+      read:'Read More',
       
     },
    
@@ -97,6 +105,7 @@ const blogData = [
       content: 'In today’s fast-paced business landscape, technology plays a pivotal role in determining a company’s success. As the demand for flexible and efficient solutions continues to rise, […] ',
       likes: 0,
       date: 'November 16, 2023',
+      read:'Read More',
       
     },
    
@@ -112,9 +121,9 @@ const Page1 = () => {
         <div className='row'>
           <div className='col-sm-12 text-center mt-4 '>
             <h1 className='blog ' >Blog</h1>
-            <a className='decration text-secondary' href=''>Home <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right mx-3" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                </svg></span> Blog</a>
+            <a className='decration text-secondary' href='/'>Home </a> <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right mx-3" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg></span><span className='text-secondary'> Blog</span>
           </div>
         </div>
       </div>
@@ -127,8 +136,8 @@ const Page1 = () => {
 <div className='row '>
       {blogData.map((blog) => (
         <div key={blog.id} className='col-sm-4 mt-5 '>
-          <div className="card search " style={{ width: "22rem" }}>
-           <a href='' ><img src={blog.imageSrc} className="card-img-top" alt="..." /> </a>
+          <div className="card search " style={{ width: "100" }}>
+           <a href='' ><img src={blog.imageSrc} className="card-img-top p-2" alt="..." /> </a>
             <div className="boot_icon ">
                                     <div className="round fs-4  ">
                                    <a href=''> <svg className='  text-black ' xmlns="http://www.w3.org/2000/svg" width="40" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
@@ -151,7 +160,7 @@ const Page1 = () => {
 </svg> {blog.date}</span></p>
           
             <div className="card-body">
-              <h5 className="card-title text-start fs-4">{blog.title}</h5>
+              <h5 className="card-title text-start fs-4 fix">{blog.title}</h5>
               <p className="card-text text-start text-secondary">{blog.content}</p>
             </div>
             <div className="card-body">
@@ -169,7 +178,7 @@ const Page1 = () => {
                         <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
                         <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
                         <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
-                      </svg>  Read More </a>
+                      </svg> {blog.read} </a>
                  </div>
               </div>
             </div>

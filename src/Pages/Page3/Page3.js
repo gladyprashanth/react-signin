@@ -19,6 +19,7 @@ const blogData = [
     content: 'In today’s dynamic business landscape, cost optimization is a key factor for sustainable growth. For companies seeking to bolster their operational efficiency without compromising on performance, […]',
     likes: 0,
     date: 'November 16, 2023',
+    read:'Read More',
     
   },
   {
@@ -28,6 +29,7 @@ const blogData = [
     content: ' The world of technology has witnessed a remarkable transformation over the past few decades, and India has been no exception. As businesses and individuals embraced the […] ',
     likes: 0,
     date: 'November 18, 2023',
+    read:'Read More',
     
   },
  
@@ -38,6 +40,7 @@ const blogData = [
     content: ' In the modern business landscape, flexibility and adaptability are essential qualities for success. Project-based work, remote collaborations, and short-term assignments have become commonplace, requiring organizations to […] ',
     likes: 0,
     date: 'November 10, 2023',
+    read:'Read More',
     
   },
  
@@ -48,6 +51,7 @@ const blogData = [
     content:'In the fast-paced world of business, project-based teams often find themselves in need of efficient and flexible solutions to tackle short-term tasks and assignments. One such […] ',
     likes: 0,
     date: 'October 10, 2023',
+    read:'Read More',
     
   },
  
@@ -58,6 +62,7 @@ const blogData = [
     content: ' In the realm of software development, having the right tools at your disposal can make a world of difference in your productivity and the quality of […] ',
     likes: 0,
     date: 'November 25, 2023',
+    read:'Read More',
     
   },
  
@@ -68,6 +73,7 @@ const blogData = [
     content: 'In today’s digital age, video editing has become an essential skill for content creators, filmmakers, and businesses alike. Whether you’re a professional videographer or a creative […] ',
     likes: 3,
     date: 'November 16, 2023',
+    read:'Read More',
     
   },
  
@@ -78,6 +84,7 @@ const blogData = [
     content: 'In recent times, the concept of work has evolved, and remote work has become an integral part of many businesses. With the rise of flexible work […] ',
     likes: 0,
     date: 'November 16, 2023',
+    read:'Read More',
     
   },
  
@@ -88,6 +95,7 @@ const blogData = [
     content: ' In the dynamic world of technology, staying ahead of the curve is essential, especially for creative professionals. The advent of the MacBook M1 Pro has introduced […]  ',
     likes: 0,
     date: 'November 16, 2023',
+    read:'Read More',
     
   },
  
@@ -98,6 +106,7 @@ const blogData = [
     content: ' In today’s fast-paced digital world, having the right tools at your disposal can significantly impact your productivity. High-end laptops offer a range of features and capabilities […] ',
     likes: 0,
     date: 'November 16, 2023',
+    read:'Read More',
     
   },
  
@@ -113,9 +122,9 @@ const Page3 = () => {
         <div className='row'>
           <div className='col-sm-12 text-center mt-4 '>
             <h1 className='blog ' >Blog</h1>
-            <a className='decration text-secondary' href=''>Home <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right mx-3" viewBox="0 0 16 16">
+            <a className='decration text-secondary' href='/'>Home </a> <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right mx-3" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-</svg></span> Blog</a>
+</svg></span><span className='text-secondary'> Blog</span>
           </div>
         </div>
       </div>
@@ -128,8 +137,8 @@ const Page3 = () => {
 <div className='row '>
       {blogData.map((blog) => (
         <div key={blog.id} className='col-sm-4 mt-5 '>
-          <div className="card search " style={{ width: "22rem" }}>
-           <a href='' ><img src={blog.imageSrc} className="card-img-top" alt="..." /> </a>
+          <div className="card search " style={{ width: "100" }}>
+           <a href='' ><img src={blog.imageSrc} className="card-img-top p-2" alt="..." /> </a>
             <div className="boot_icon ">
                                     <div className="round fs-4  ">
                                    <a href=''> <svg className='  text-black ' xmlns="http://www.w3.org/2000/svg" width="40" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
@@ -152,7 +161,7 @@ const Page3 = () => {
 </svg> {blog.date}</span></p>
           
             <div className="card-body">
-              <h5 className="card-title text-start fs-4">{blog.title}</h5>
+              <h5 className="card-title text-start fs-4 fix">{blog.title}</h5>
               <p className="card-text text-start text-secondary">{blog.content}</p>
             </div>
             <div className="card-body">
@@ -170,7 +179,7 @@ const Page3 = () => {
                         <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
                         <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
                         <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
-                      </svg>  Read More </a>
+                      </svg> {blog.read} </a>
                  </div>
               </div>
             </div>

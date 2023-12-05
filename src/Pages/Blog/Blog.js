@@ -11,8 +11,6 @@ import ips8 from '../../Assets/ips8.webp'
 import ips9 from '../../Assets/ips9.webp'
 
 
-
-
 const blogData = [
   {
     id: 1,
@@ -21,6 +19,7 @@ const blogData = [
     content: 'Introduction Welcome to Rental Plaza, your ultimate destination for a seamless laptop rental experience right at your doorstep. In an era dominated by flexibility, affordability, and […]',
     likes: 0,
     date: 'November 16, 2023',
+    read:'Read More',
     
   },
   {
@@ -30,6 +29,7 @@ const blogData = [
     content: 'Welcome to the future of creative workstations, where performance meets portability. In an era dominated by ever-evolving technology, the MacBook Pro M3 stands as a true […]',
     likes: 0,
     date: 'November 18, 2023',
+    read:'Read More',
     
   },
  
@@ -40,6 +40,7 @@ const blogData = [
     content: 'Gurugram, also known as Gurgaon, has evolved into a thriving corporate hub in India. With a bustling economy and a dynamic business environment, the demand for […]',
     likes: 0,
     date: 'November 10, 2023',
+    read:'Read More',
     
   },
  
@@ -50,6 +51,7 @@ const blogData = [
     content:'In the bustling city of Gurugram, where innovation and opportunities abound, having the right tools at your disposal is crucial for personal and professional success. Laptops […]',
     likes: 0,
     date: 'October 10, 2023',
+    read:'Read More',
     
   },
  
@@ -60,6 +62,7 @@ const blogData = [
     content: 'Welcome to the vibrant city of Gurugram, a place where businesses and individuals are always on the go. In this fast-paced environment, having access to high-performance […]',
     likes: 0,
     date: 'November 25, 2023',
+    read:'Read More',
     
   },
  
@@ -70,6 +73,7 @@ const blogData = [
     content: 'Gurugram, often referred to as the Millennium City, is India’s thriving hub for technology and innovation. In this dynamic and competitive environment, businesses and individuals require […]',
     likes: 3,
     date: 'November 16, 2023',
+    read:'Read More',
     
   },
  
@@ -80,6 +84,7 @@ const blogData = [
     content: 'In the dynamic landscape of information technology, efficiency is the linchpin that drives productivity and competitiveness. For IT companies in Mohali, the choice between purchasing and […]',
     likes: 0,
     date: 'November 16, 2023',
+    read:'Read More',
     
   },
  
@@ -90,6 +95,7 @@ const blogData = [
     content: 'In today’s fast-paced business world, staying competitive often hinges on having access to the latest technology. For businesses in Chandigarh, laptops are the lifeblood of daily […]',
     likes: 0,
     date: 'November 16, 2023',
+    read:'Read More',
     
   },
  
@@ -100,6 +106,7 @@ const blogData = [
     content: 'In today’s fast-paced digital world, staying ahead of the curve often requires having access to cutting-edge technology. For professionals, students, and creatives in Mohali, the MacBook […]',
     likes: 0,
     date: 'November 16, 2023',
+    read:'Read More',
     
   },
  
@@ -107,6 +114,7 @@ const blogData = [
 
 
 const Blog = () => {
+  
   return (
     <div>
       <div className='container-fluid design'>
@@ -114,9 +122,9 @@ const Blog = () => {
         <div className='row'>
           <div className='col-sm-12 text-center mt-4 '>
             <h1 className='blog ' >Blog</h1>
-            <a className='decration text-secondary' href=''>Home <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right mx-3" viewBox="0 0 16 16">
+            <a className='decration text-secondary' href='/'>Home </a> <span className=' text-secondary text-opacity-50'> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right mx-3" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-</svg></span> Blog</a>
+</svg></span><span className='text-secondary'> Blog</span>
           </div>
         </div>
       </div>
@@ -128,9 +136,9 @@ const Blog = () => {
 <div className='container '>
 <div className='row '>
       {blogData.map((blog) => (
-        <div key={blog.id} className='col-sm-4 mt-5 '>
-          <div className="card search " style={{ width: "22rem" }}>
-           <a href='' ><img src={blog.imageSrc} className="card-img-top" alt="..." /> </a>
+        <div key={blog.id} className='col-sm-4 mt-5  '>
+          <div className="card search " style={{ width: "100" }}>
+           <a href='' ><img  src={blog.imageSrc} className="card-img-top img-fluid p-2" alt="..." /> </a>
             <div className="boot_icon ">
                                     <div className="round fs-4  ">
                                    <a href=''> <svg className='  text-black ' xmlns="http://www.w3.org/2000/svg" width="40" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
@@ -152,7 +160,7 @@ const Blog = () => {
   <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
 </svg> {blog.date}</span></p>
               <div className="card-body">
-              <h5 className="card-title text-start fs-4 fix">{blog.title}</h5>
+              <h5 className="card-title text-start fs-4 fix ">{blog.title}</h5>
               <p className="card-text text-start text-secondary">{blog.content}</p>
             </div>
             <div className="card-body">
@@ -170,7 +178,7 @@ const Blog = () => {
                         <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
                         <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
                         <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
-                      </svg>  Read More </a>
+                      </svg>  {blog.read} </a>
                  </div>
               </div>
             </div>
