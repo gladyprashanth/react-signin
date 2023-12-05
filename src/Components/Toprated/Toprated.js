@@ -6,6 +6,8 @@ import img_24 from "../../Assets/img_24.webp"
 import img_25 from "../../Assets/img_25.webp"
 
 
+
+
 const Toprated = () => {
     
     const desktops = [

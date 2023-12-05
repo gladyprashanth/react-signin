@@ -66,7 +66,7 @@ const SideBar = () => {
   return (
     <div>
 
-<button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></button>
+<button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle</button>
 
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
   <div class="offcanvas-header">
@@ -81,7 +81,7 @@ const SideBar = () => {
         {bottomHeaderOptions.map((option, index) => (
                     <div key={index} className='BottomHeader'>
                         <div className='BottomHeader_options_image'>
-                            <img src={option.icon} className='BottomHeaders_options_image' alt={option.optionName} />
+                            <img src={option.icon} className='BottomHeaders_options_image mx-2' alt={option.optionName} />
                         </div>
                         <div>{option.optionName}</div>
                         <div className='BottomHeader_dropdown'>
