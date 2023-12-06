@@ -1,128 +1,127 @@
 import React from 'react'
-import './Blog.css'
-import ips from '../../Assets/ips.webp'
-import ips2 from '../../Assets/ips2.webp'
-import ips3 from '../../Assets/ips3.webp'
-import ips4 from '../../Assets/ips4.webp'
-import ips5 from '../../Assets/ips5.webp'
-import ips6 from '../../Assets/ips6.webp'
+import './Page5.css'
 import ips7 from '../../Assets/ips7.webp'
 import ips8 from '../../Assets/ips8.webp'
 import ips9 from '../../Assets/ips9.webp'
-
+import ips10 from '../../Assets/ips10.webp'
+import ips14 from '../../Assets/ips14.webp'
+import ips15 from '../../Assets/ips15.webp'
+import ips16 from '../../Assets/ips16.webp'
+import ips17 from '../../Assets/ips17.webp'
+import ips19 from '../../Assets/ips19.webp'
 
 const blogData = [
-  {
-    id: 1,
-    imageSrc: ips,
-    title: 'Tips For The Best Laptop Rentals Near Me',
-    content: 'Introduction Welcome to Rental Plaza, your ultimate destination for a seamless laptop rental experience right at your doorstep. In an era dominated by flexibility, affordability, and […]',
-    likes: 0,
-    date: 'November 16, 2023',
-    read:'Read More',
-    
-  },
-  {
-    id: 1,
-    imageSrc: ips2,
-    title: 'MacBook Pro M3 on Rent: Unleash Your Creativity',
-    content: 'Welcome to the future of creative workstations, where performance meets portability. In an era dominated by ever-evolving technology, the MacBook Pro M3 stands as a true […]',
-    likes: 0,
-    date: 'November 18, 2023',
-    read:'Read More',
-    
-  },
- 
-  {
-    id: 1,
-    imageSrc: ips3,
-    title: 'How to Rent a Server in Gurugram',
-    content: 'Gurugram, also known as Gurgaon, has evolved into a thriving corporate hub in India. With a bustling economy and a dynamic business environment, the demand for […]',
-    likes: 0,
-    date: 'November 10, 2023',
-    read:'Read More',
-    
-  },
- 
-  {
-    id: 1,
-    imageSrc: ips4,
-    title: 'How to Rent Laptop in Gurugram',
-    content:'In the bustling city of Gurugram, where innovation and opportunities abound, having the right tools at your disposal is crucial for personal and professional success. Laptops […]',
-    likes: 0,
-    date: 'October 10, 2023',
-    read:'Read More',
-    
-  },
- 
-  {
-    id: 1,
-    imageSrc: ips5,
-    title: 'How to Rent a Desktop PC in Gurugram with Rental Plaza',
-    content: 'Welcome to the vibrant city of Gurugram, a place where businesses and individuals are always on the go. In this fast-paced environment, having access to high-performance […]',
-    likes: 0,
-    date: 'November 25, 2023',
-    read:'Read More',
-    
-  },
- 
-  {
-    id: 1,
-    imageSrc: ips6,
-    title: 'How to Rent a MacBook in Gurugram with Rental Plaza',
-    content: 'Gurugram, often referred to as the Millennium City, is India’s thriving hub for technology and innovation. In this dynamic and competitive environment, businesses and individuals require […]',
-    likes: 3,
-    date: 'November 16, 2023',
-    read:'Read More',
-    
-  },
- 
-  {
-    id: 1,
-    imageSrc: ips7,
-    title: 'Maximizing Efficiency: How Renting Desktops Benefits Mohali IT Companies',
-    content: 'In the dynamic landscape of information technology, efficiency is the linchpin that drives productivity and competitiveness. For IT companies in Mohali, the choice between purchasing and […]',
-    likes: 0,
-    date: 'November 16, 2023',
-    read:'Read More',
-    
-  },
- 
-  {
-    id: 1,
-    imageSrc: ips8,
-    title: 'IT Management Simplified: The Benefits of Renting Laptops for Chandigarh Businesses',
-    content: 'In today’s fast-paced business world, staying competitive often hinges on having access to the latest technology. For businesses in Chandigarh, laptops are the lifeblood of daily […]',
-    likes: 0,
-    date: 'November 16, 2023',
-    read:'Read More',
-    
-  },
- 
-  {
-    id: 1,
-    imageSrc: ips9,
-    title: 'Affordable Access to Cutting-Edge Technology: MacBook M1 Pro Rentals in Mohali',
-    content: 'In today’s fast-paced digital world, staying ahead of the curve often requires having access to cutting-edge technology. For professionals, students, and creatives in Mohali, the MacBook […]',
-    likes: 0,
-    date: 'November 16, 2023',
-    read:'Read More',
-    
-  },
- 
-];
+    {
+      id: 1,
+      imageSrc: ips15,
+      title: ' Smart Savings: Calculating the Cost-Benefit of IT Equipment Rentals ',
+      content: 'In today’s dynamic business landscape, cost optimization is a key factor for sustainable growth. For companies seeking to bolster their operational efficiency without compromising on performance, […]',
+      likes: 0,
+      date: 'November 16, 2023',
+      read:'Read More',
+      
+    },
+    {
+      id: 1,
+      imageSrc: ips16,
+      title: 'Affordable Solutions: Renting Laptops and Desktops for Remote Employees',
+      content: ' In the dynamic landscape of the modern workplace, the concept of remote work has rapidly gained momentum. Whether spurred by global events or driven by the […] ',
+      likes: 0,
+      date: 'November 18, 2023',
+      read:'Read More',
+      
+    },
+   
+    {
+      id: 1,
+      imageSrc: ips17,
+      title: ' The Rise of Remote Work: How IT Equipment Rentals are Enabling Seamless Work from Anywhere',
+      content: ' The past few years have seen a significant shift in the way we work. The rise of remote work has transformed the traditional office landscape, making […] ',
+      likes: 0,
+      date: 'November 10, 2023',
+      read:'Read More',
+      
+    },
+   
+    {
+      id: 1,
+      imageSrc: ips7,
+      title: 'Laptop Rentals vs. Purchasing: Making Informed Decisions for Your Business',
+      content:' In the ever-evolving landscape of business technology, the decision to rent or purchase laptops is a crucial one. Laptops play a pivotal role in modern business […] ',
+      likes: 0,
+      date: 'October 10, 2023',
+      read:'Read More',
+      
+    },
+   
+    {
+      id: 1,
+      imageSrc: ips19,
+      title: ' Exploring Different Laptop Models: A Guide to Choosing the Right Rental Option ',
+      content: ' When it comes to meeting your business’s computing needs, there’s no one-size-fits-all solution. The right laptop model can significantly impact productivity, efficiency, and overall user experience. […]',
+      likes: 0,
+      date: 'November 25, 2023',
+      read:'Read More',
+      
+    },
+   
+    {
+      id: 1,
+      imageSrc: ips14,
+      title:' Flexibility and Cost Savings: Exploring the Advantages of Laptop Rentals for Small Businesses',
+      content: ' In today’s fast-paced business landscape, small businesses often find themselves needing to adapt quickly to changing demands while keeping their expenses in check. One solution that […] ',
+      likes: 3,
+      date: 'November 16, 2023',
+      read:'Read More',
+      
+    },
+   
+    {
+      id: 1,
+      imageSrc: ips10,
+      title: ' Temporary Expansion: Using Laptop Rentals to Accommodate Seasonal Business Needs',
+      content: 'Seasonal fluctuations in business demand are a common challenge faced by many industries. Whether it’s during the holiday shopping season, tax season, or other peak periods, […] ',
+      likes: 0,
+      date: 'November 16, 2023',
+      read:'Read More',
+      
+    },
+   
+    {
+      id: 1,
+      imageSrc: ips8,
+      title: ' Project-Based Rentals: Optimizing Laptop Usage for Short-Term Endeavors',
+      content: ' In today’s dynamic business landscape, short-term projects have become a common practice for companies looking to innovate, diversify, or adapt quickly. These projects require dedicated resources, […] ',
+      likes: 0,
+      date: 'November 16, 2023',
+      read:'Read More',
+      
+    },
+   
+    {
+      id: 1,
+      imageSrc: ips9,
+      title: 'Testing and Development: Renting Laptops for Software and App Development',
+      content: ' In the rapidly evolving landscape of software and app development, having the right tools at your disposal can make a significant difference in the efficiency and […] ',
+      likes: 0,
+      date: 'November 16, 2023',
+      read:'Read More',
+      
+    },
+   
+  ];
 
-
-const Blog = () => {
-  
+const Page5 = () => {
   return (
+    <div>
+             
     <div>
       <div className='container-fluid design'>
       <div className='container '>
         <div className='row'>
           <div className='col-sm-12 text-center mt-4 '>
             <h1 className='blog ' >Blog</h1>
-            <a className='decration text-secondary' href='/'>Home </a> <span className=' text-secondary text-opacity-50'> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right mx-3" viewBox="0 0 16 16">
+            <a className='decration text-secondary' href='/'>Home </a> <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right mx-3" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
 </svg></span><span className='text-secondary'> Blog</span>
           </div>
@@ -130,15 +129,15 @@ const Blog = () => {
       </div>
       </div>
 
-      {/* .............................finish Title.................................................................................. */}
-
+      {/* ...............................................................finish Title.................................................................. */}
+      
 <div className='container-fluid design'>
 <div className='container '>
 <div className='row '>
       {blogData.map((blog) => (
-        <div key={blog.id} className='col-sm-4 mt-5  '>
+        <div key={blog.id} className='col-sm-4 mt-5 '>
           <div className="card search " style={{ width: "100" }}>
-           <a href='' ><img  src={blog.imageSrc} className="card-img-top img-fluid p-2 " alt="..." /> </a>
+           <a href='' ><img src={blog.imageSrc} className="card-img-top p-2" alt="..." /> </a>
             <div className="boot_icon ">
                                     <div className="round fs-4  ">
                                    <a href=''> <svg className='  text-black ' xmlns="http://www.w3.org/2000/svg" width="40" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
@@ -146,21 +145,22 @@ const Blog = () => {
             </svg> </a>
                                 </div>
                                     <div className=" round fs-4">
-                                    <a href='/SubBlog'>  <svg  className='text-black' xmlns="http://www.w3.org/2000/svg" width="45" height="30" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                                    <a href=''>  <svg  className='text-black' xmlns="http://www.w3.org/2000/svg" width="45" height="30" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
   <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
   <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"/>
 </svg></a>
              </div>
              </div>
             
-            <p className='text-start detail mt-3 mx-2'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+            <p className='text-start detail mt-3'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
   <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664z"/>
-</svg> Rental plazza on <span className='mx-2'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+</svg> Rental plazza on <span className='mx-3'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
   <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
   <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
 </svg> {blog.date}</span></p>
-              <div className="card-body">
-              <h5 className="card-title text-start fs-4 fix ">{blog.title}</h5>
+          
+            <div className="card-body">
+              <h5 className="card-title text-start fs-4 fix">{blog.title}</h5>
               <p className="card-text text-start text-secondary">{blog.content}</p>
             </div>
             <div className="card-body">
@@ -178,7 +178,7 @@ const Blog = () => {
                         <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
                         <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
                         <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
-                      </svg>  {blog.read} </a>
+                      </svg> {blog.read} </a>
                  </div>
               </div>
             </div>
@@ -189,7 +189,7 @@ const Blog = () => {
 </div>
 </div>
 
-{/* .......................................................finish-body................................................................................... */}
+{/* .................................................................finish-body......................................................................... */}
 
 
 <div className='containe design'>
@@ -197,9 +197,9 @@ const Blog = () => {
     <div className='col-sm-3 mt-5'></div>
     <div className='col-sm-9 mt-5 '>
     <div className="pagination">
-      <a className='text-primary' href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+      <a className='text-primary  ' href="/Page4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-</svg>Prev  page</a>
+</svg> Prev page</a>
       <a className='first fs-5 text-secondary' href="/Page1" onMouseOver={(e) => e.target.style.backgroundColor='#0B1A48 '} onMouseOut={(e) => e.target.style.backgroundColor='transparent '}>
           1
         </a>
@@ -225,17 +225,17 @@ const Blog = () => {
           8
         </a>
       
-     <a className=' text-primary' href="/Page1">  Next Page<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-          </svg></a>
+      <a className=' text-primary' href="/Page6"> Next Page</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
     </div>
     </div>
   </div>
-  </div>
+</div>
     </div>
-    // ......................................................finish......................................................
-    
+
+    </div>
   )
 }
 
-export default Blog
+export default Page5

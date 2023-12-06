@@ -30,7 +30,7 @@ const iconData = [
     },
     {
       image: icon4,
-      title: 'ServicAffordable Pricese',
+      title: 'Affordable Prices',
       description: 'We are available with all types range',
     },
   ];

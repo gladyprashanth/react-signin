@@ -19,8 +19,6 @@
     font-size: 15px;
 }
 
-
-
 .boot_icon{
     cursor: pointer;
 }
@@ -45,13 +43,10 @@
     border-radius: 50%;
     color: #0B1A48;
     margin-top: 10px;
-
 }
- 
 
 .search:hover .round{
     opacity: 1;
-   
 }
 
 .search{
@@ -75,7 +70,4 @@
      /* color: #0B1A48; */
   }
 
-.fix{
-    margin-top: -15px;
-}
  

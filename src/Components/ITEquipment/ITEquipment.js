@@ -7,6 +7,8 @@ import Server from '../../Assets/laptop_4.webp';
 import Printer from '../../Assets/laptop_5.webp';
 import Apple from '../../Assets/laptop_6.webp';
 
+
+
 const equipmentData = [
   {
     title: 'LAPTOP ON RENT',
@@ -51,6 +53,14 @@ const ITEquipment = () => {
 
   return (
     <div>
+      <div className='container'>
+        <div className='row mt-5'>
+          <div className='col-sm-12'>
+                <p className='fs-4'>Complete IT Equipment Rentals</p>
+                <h1 className='text-center'>Our <span className='text-primary'>Services </span></h1>
+          </div>
+        </div>
+      </div>
       <div className="container mt-5">
         <div className="row">
           {equipmentData.map((equipment, index) => (
@@ -68,7 +78,7 @@ const ITEquipment = () => {
                         <p className="text-start card-text text-black mt-3">
                           {showFullContent
                             ? equipment.description
-                            : `${equipment.description.slice(0, equipment.description.length / 2)}...`}
+                            : `${equipment.description.slice(0, equipment.description.length / 2)}`}
                           <button className="border-0" onClick={toggleReadMore}>
                             {showFullContent ? '...' : '...'}
                           </button>
