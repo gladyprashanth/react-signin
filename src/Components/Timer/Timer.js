@@ -10,7 +10,7 @@ const Timer = () => {
         <div className="container voil rounded ">
             <div className="row">
                 <div className="col-sm-5">
-                    <img  className='img-fluid' src={img_26} alt="pc img" />
+                    <img  className='kanini img-fluid w-100 mt-5' src={img_26} alt="pc img" />
 
                 </div>
                 <div className="col-sm-1">

@@ -62,27 +62,27 @@ const Satisfied = () => {
       ];
   return (
     <div>
-      <div className="container-fluid desi">
+       <div className="container-fluid desi">
 <div className="container ">
 <div className="row">
             <div className="col-sm-12">
               <h1 className="text-center fs-2 mt-5">Satisfied customers</h1>
             </div>
 
-            <div className="col-sm-3 mt-5">
+            <div className="col-sm-2 mt-5">
               <h3>Excellent</h3>
-              <span className="stars fs-5 text-warning">
+              <span className="stars fs-5 text-warning mt-3">
                 <FaStar />
                 <FaStar />
                 <FaStar />
                 <FaStar />
                 <FaStar />
               </span>
-              <p className='text-start' >Based on 66 reviews</p>
-              <img className="img-fluid w-50" src={img_7} alt="google logo" />
+              <p className='text-start mt-3' >Based on 66 reviews</p>
+              <img className="img-fluid w-75" src={img_7} alt="google logo" />
             </div>
 {/* caroseal test start */}
-            <div className="col-sm-9 mt-5">
+            <div className="col-sm-10 mt-5">
               
 
 
@@ -93,9 +93,9 @@ const Satisfied = () => {
 
         <div className="row">
       {cardData.map(card => (
-        <div key={card.id} className="col-lg-4">
-          <div className="card border-0" style={{ width: '18rem' , height:"13rem" }}>
-            <div className="paral d-flex">
+        <div key={card.id} className="col-sm-4 ">
+          <div className="card border-0  " style={{ width: '100' , height:"13rem" }}>
+            <div className="paral d-flex  ">
             <img src={card.imageUrl} className="card-img-top w-25" alt={card.title} />
             <div className="name">
             <h6 className="card-title">{card.title1}</h6>
@@ -105,7 +105,7 @@ const Satisfied = () => {
             </div>
             
             <div className="card-body">
-              {/* <h5 className="card-title">{card.title}</h5> */}
+             
               <span className="stars fs-5 text-warning  ">
                 <FaStar />
                 <FaStar />
@@ -114,7 +114,7 @@ const Satisfied = () => {
                 <FaStar />
               </span>
               <p className="card-text text-start ">{card.text}</p>
-              {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
+
             </div>
           </div>
         </div>
@@ -131,8 +131,8 @@ const Satisfied = () => {
         
       <div className="row">
       {cardData2.map(card => (
-        <div key={card.id} className="col-lg-4">
-          <div className="card border-0 " style={{ width: '18rem', height:"13rem" }}>
+        <div key={card.id} className="col-sm-4">
+          <div className="card border-0 " style={{ width: '100',height:"13rem" }}>
           <div className="paral d-flex">
             <img src={card.imageUrl} className="card-img-top w-25" alt={card.title} />
             <div className="name">
@@ -142,7 +142,7 @@ const Satisfied = () => {
             <img src={card.imageUrl1} className="card-img-top w-25 text-end " alt={card.title} />
             </div>
             <div className="card-body">
-              {/* <h5 className="card-title">{card.title}</h5> */}
+              
               <span className="stars fs-5 text-warning">
                 <FaStar />
                 <FaStar />
@@ -151,7 +151,7 @@ const Satisfied = () => {
                 <FaStar />
               </span>
               <p className="card-text text-start">{card.text}</p>
-              {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
+             
             </div>
           </div>
         </div>
@@ -182,8 +182,8 @@ const Satisfied = () => {
             <div className="col-sm-5">
 
             </div>
-                <div className="col-3">
-            <a href="#" className="btn btn-primary  btn-lg mt-5 ">Write Review</a>
+                <div className="col-3 ">
+            <a href="#" className="btn btn-primary    btn-lg mt-5 mb-3  ">Write Review</a>
 
             </div>
           </div>

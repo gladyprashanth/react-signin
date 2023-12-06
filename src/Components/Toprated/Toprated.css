@@ -1,3 +1,88 @@
 .one{
     background-color: #f7f7f7;
 }
+.letters h5{
+  font-family:'DM Serif Display' , Serif;
+ 
+  font-weight: bold;
+  font-size: 8px;
+}
+/* .hsize {
+  cursor: pointer;
+}
+
+.hsize.touched {
+  color: red;
+} */
+
+.circper {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.hsize {
+  font-size: 25px;
+}
+
+@media (max-width: 576px) {
+  .hsize {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .hsize {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .hsize {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .hsize {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .hsize {
+    font-size: 25px;
+  }
+}
+
+
+ /* .circper{
+  border: 2px solid red;
+
+  justify-content: space-between;
+ 
+  gap: 180px;
+ }
+ .hsize{
+  font-size: 25px;
+ } */
+ .circper p{
+  background-color: red;
+  border-radius: 4rem;
+  font-size: 12px;
+  font-weight:bold;
+ }
+/* Add this CSS to your stylesheets or style tag */
+.desktop_card11 {
+  /* width: 15rem; */
+  height: 32rem;
+  transition: box-shadow 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.desktop_card11:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+  
