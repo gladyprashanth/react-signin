@@ -1,59 +1,51 @@
-.BottomHeader{
+.BottomHeader {
     /* border: 1px solid red; */
-    border-bottom: 1px solid gray;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    height: 1.5rem;
+    font-weight: 300;
 }
 
-.BottomHeader_inner_container{
-    /* border: 1px solid red; */
-    width: 95%;
-    height: 100%;
-    padding: 1rem;
+.BottomHeader nav {
+    /* border: 1px  solid red; */
+    width: 90%;
     display: flex;
-    /* gap: 1.5rem; */
+    justify-content: flex-start;
 }
 
-.BottomHeader_options{
+.BottomHeader_icon_container {
     /* border: 1px solid red; */
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-    cursor: pointer;
-    padding: 0.5rem;
-}
-
-.BottomHeader_options_image_container{
-    /* border: 1px solid red; */
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     overflow: hidden;
 }
 
-.BottomHeader_options_dropdown_image_container{
+.BottomHeader_icon_container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.BottomHeader_dropdownicon_container {
     /* border: 1px solid red; */
     width: 15px;
     height: 15px;
     overflow: hidden;
 }
 
-.BottomHeader_options_image{
-    /* border: 1px solid red; */
+.BottomHeader_dropdownicon_container img {
     max-width: 100%;
     max-height: 100%;
 }
 
-.BottomHeader_options:hover{
-    border-bottom: 5px solid blueviolet;
-    /* transition: 0.1s; */
+.BottomHeader_main_options {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
 
-    .BottomHeader_options_dropdown_image_container{
-        transform: rotate(0.5turn);
-        transition: 1s;
+@media screen and (max-width:1111px) {
+    .BottomHeader {
+        display: none;
     }
 }

@@ -1,47 +1,20 @@
 import React from 'react';
-import './BottomHeader.css';
+import './BottomHeader.css'
+import { Link } from 'react-router-dom';
 
 const BottomHeader = () => {
-    const bottomHeaderOptions = [
-        {
-            icon: "https://www.svgrepo.com/show/510951/desktop-tower.svg",
-            optionName: "Desktops",
-            dropDownMenu: [
-                "Office Desktops",
-                "High End Desktops",
-                "Gaming Desktops",
-            ]
-        },
-        {
-            icon: "https://www.svgrepo.com/show/529662/laptop.svg",
-            optionName: "Laptops",
-            dropDownMenu: [
-                "Office Laptops",
-                "Gaming Laptops",
-                "Gaming Laptops",
-            ]
-        },
-        {
-            icon: "https://www.svgrepo.com/show/509722/apple-inc.svg",
-            optionName: "Apple",
-            dropDownMenu: [
-                "MacBook",
-                "iMac",
-            ]
-        },
-    ];
 
     const topHeaderOptions = [
         {
-            title: "About",
+            title: "Desktops",
             dropDownMenu: [
                 "Why Rentals",
                 "What do we do?",
-                "Who We Are",
+                "Who We Are"
             ]
         },
         {
-            title: "Services",
+            title: "Laptops",
             dropDownMenu: [
                 "Laptop on Rent",
                 "Computer on Rent",
@@ -49,45 +22,88 @@ const BottomHeader = () => {
             ]
         },
         {
-            title: "Locations",
+            title: "Apple",
             dropDownMenu: [
                 "Laptop on Rent in Delhi",
                 "Laptop on Rent in Chennai",
-                "Laptop on Rent in Banglore"
+                "Laptop on Rent in Bangalore",
             ]
         },
         {
-            title: "Blog",
-            dropDownMenu: [
-
-            ]
+            title: "Projector",
+            dropDownMenu: []
         },
         {
-            title: "Contact",
-            dropDownMenu: [
-
-            ]
+            title: "Server",
+            dropDownMenu: []
+        },
+        {
+            title: "Workstation",
+            dropDownMenu: []
         },
     ];
 
     return (
         <div className='BottomHeader'>
-            <div className='BottomHeader_inner_container'>
-                {bottomHeaderOptions.map((option, index) => (
-                    <div key={index} className='BottomHeader_options'>
-                        <div className='BottomHeader_options_image_container'>
-                            <img src={option.icon} className='BottomHeader_options_image' alt={option.optionName} />
-                        </div>
-                        <div>{option.optionName}</div>
-                        <div className='BottomHeader_options_dropdown_image_container'>
-                            <img src='https://www.svgrepo.com/show/522521/down-2.svg' className='BottomHeader_options_image' alt='Dropdown' />
-                        </div>
-                    </div>
-                ))}
-            </div>
-            
+            <nav>
+                <ul>
+                    {topHeaderOptions.map((item, index) => (
+                        <li key={index}>
+                            <div className='BottomHeader_main_options'
+                                onMouseEnter={() => document.querySelector('.contentBody').classList.add('blur')}
+                                onMouseLeave={() => document.querySelector('.contentBody').classList.remove('blur')}
+                            >
+                                <div className='BottomHeader_icon_container'>
+                                    <img
+                                        src='https://www.svgrepo.com/show/374847/desktop-and-phone.svg'
+                                    />
+                                </div>
+                                <div>{item.title}</div>
+                                {item.dropDownMenu.length !== 0 ? <div className='BottomHeader_dropdownicon_container'>
+                                    <img
+                                        src='https://www.svgrepo.com/show/496796/arrow-down.svg'
+                                    />
+                                </div> : null}
+                            </div>
+                            {item.dropDownMenu.length !== 0 ?
+                                <ul className="dropdown"
+                                    onMouseEnter={() => document.querySelector('.contentBody').classList.add('blur')}
+                                    onMouseLeave={() => document.querySelector('.contentBody').classList.remove('blur')}
+                                >
+                                    {item.dropDownMenu.map((subItem, subIndex) => (
+                                        <li key={subIndex}><div>{subItem}</div></li>
+                                    ))}
+                                </ul>
+                                :
+                                null
+                            }
+                        </li>
+                    ))}
+                </ul>
+            </nav>
         </div>
-    );
-};
+    )
+}
 
 export default BottomHeader;
+
+
+
+{/*
+                        <li>
+                        <div className='BottomHeader_main_options'>
+                            <div className='BottomHeader_icon_container'><img
+                                src='https://www.svgrepo.com/show/374847/desktop-and-phone.svg'
+                            /></div>
+                            <div>Desktop</div>
+                            <div className='BottomHeader_dropdownicon_container'><img
+                                src='https://www.svgrepo.com/show/496796/arrow-down.svg'
+                            /></div>
+                        </div>
+                        <ul class="dropdown">
+                            <li><div >Sub-1</div></li>
+                            <li><div >Sub-2</div></li>
+                            <li><div >Sub-3</div></li>
+                        </ul>
+                    </li>
+                    */}

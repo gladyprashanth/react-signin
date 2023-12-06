@@ -1,6 +1,5 @@
 import React from 'react';
 import './SideBar.css'
-import BottomHeader from '../Header/BottomHeader/BottomHeader';
 
 const SideBar = () => {
     const bottomHeaderOptions = [

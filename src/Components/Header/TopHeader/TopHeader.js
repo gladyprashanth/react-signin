@@ -1,8 +1,34 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './TopHeader.css'
-import { SlArrowDown } from "react-icons/sl";
+import { RiArrowDropDownLine } from 'react-icons/ri';
 
 const TopHeader = () => {
+    useEffect(() => {
+        // Get the navbar after the component mounts
+        const navbar = document.getElementById('navbar');
+        if (navbar) {
+            const sticky = navbar.offsetTop;
+
+            // Add the sticky class to the navbar when you reach its scroll position.
+            // Remove "sticky" when you leave the scroll position
+            function handleScroll() {
+                if (window.scrollY >= sticky) {
+                    navbar.classList.add('sticky');
+                } else {
+                    navbar.classList.remove('sticky');
+                }
+            }
+
+            // Attach the event listener
+            window.addEventListener('scroll', handleScroll);
+
+            // Cleanup the event listener when the component is unmounted
+            return () => {
+                window.removeEventListener('scroll', handleScroll);
+            };
+        }
+    }, []); // Empty dependency array ensures the effect runs only once after mount
+
     const topHeaderTitle = [{
         title: "Best Rental Guarantee PAN India"
     }];
@@ -35,42 +61,51 @@ const TopHeader = () => {
         {
             title: "Blog",
             dropDownMenu: [
-                
+
             ]
         },
         {
             title: "Contact",
             dropDownMenu: [
-                
+
             ]
         },
     ];
 
     return (
         <div className='TopHeader'>
-            <div className='topHeader_Title'>
-                {/* Render the title */}
-                {topHeaderTitle.map((item, index) => (
-                    <div key={index}>{item.title}</div>
-                ))}
-            </div>
-
-            {/* Render the options dynamically */}
-            <div className='dropdowns'>
-                {topHeaderOptions.map((option, index) => (
-                    <div key={index} className="dropdown">
-                        <button className="dropdown-button">
-                            <span>{option.title}</span>
-                            <span className='dropdown-button-icon'>{option.dropDownMenu[0] !== "" ? <SlArrowDown /> : null}</span>
-                        </button>
-                        <div className="dropdown-menu">
-                            {option.dropDownMenu.map((menuItem, menuItemIndex) => (
-                                <button key={menuItemIndex}>{menuItem}</button>
-                            ))}
-                        </div>
-                    </div>
-                ))}
-            </div>
+            <nav>
+                <div className='innerHeader'>
+                    {topHeaderTitle.map((item, index) => (
+                        <div className='innerHeader_title' key={index}>{item.title}</div>
+                    ))}
+                    <ul>
+                        {topHeaderOptions.map((item, index) => (
+                            <li key={index}>
+                                <div
+                                    className='dropdownOptionTitle'
+                                    onMouseEnter={() => document.querySelector('.contentBody').classList.add('blur')}
+                                    onMouseLeave={() => document.querySelector('.contentBody').classList.remove('blur')}
+                                >
+                                    {item.title}
+                                    {item.dropDownMenu.length === 0 ? null : <div><RiArrowDropDownLine /></div>}
+                                </div>
+                                {item.dropDownMenu.length > 0 && (
+                                    <ul
+                                        className='dropdown'
+                                        onMouseEnter={() => document.querySelector('.contentBody').classList.add('blur')}
+                                        onMouseLeave={() => document.querySelector('.contentBody').classList.remove('blur')}
+                                    >
+                                        {item.dropDownMenu.map((menuItem, menuItemIndex) => (
+                                            <li key={menuItemIndex}><div>{menuItem}</div></li>
+                                        ))}
+                                    </ul>
+                                )}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            </nav>
         </div>
     );
 };

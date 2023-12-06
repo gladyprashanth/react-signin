@@ -1,4 +1,4 @@
-.AdsHeader{
+.AdsHeader {
     /* border: 1px solid red; */
     background-image: linear-gradient(to bottom, #9629b0, #8432b1, #7139b2, #5d3eb0, #4841ae);
     padding: 0.5rem;
@@ -10,6 +10,13 @@
     gap: 0.3rem;
 }
 
-.AdsHeader span{
+.AdsHeader span {
     color: #ffa352;
+}
+
+@media screen and (max-width:791px) {
+    .AdsHeader {
+        display: none;
+        /* transition: 0.5s; */
+    }
 }

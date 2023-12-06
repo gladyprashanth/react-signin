@@ -1,78 +1,81 @@
-.Header {
+.MainHeader {
     /* border: 1px solid red; */
-    background: #ffffff;
-    width: 100%;
+    padding: 0.5rem;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.topHeader {
+.MainHeader_inner {
+    width: 90%;
     /* border: 1px solid red; */
-    width: 95%;
-    display: flex;
-    /* justify-content: space-between; */
-    gap: 8rem;
-    align-items: center;
-    box-sizing: border-box;
+    padding: 0.5rem;
 
-    /* padding: 1rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.headerInput {
+.header_ContactUs {
     /* border: 1px solid red; */
+    display: flex;
+    gap: 2rem;
+}
+
+.header_ContactUs_content {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_SearchBar {
+    border: 1px solid gray;
     border-radius: 5px;
+    width: 50%;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
-.iconAndSearchContainer {
+.menuIcon {
     /* border: 1px solid red; */
-    display: flex;
-    gap: 3rem;
-    width: 60%;
+    display: none;
 }
 
-.headerInput input {
-    /* border: 1px solid red; */
+.header_SearchBar input {
+    border: 1px solid red;
+    padding: 0.5rem;
+    width: 98%;
+    border-radius: 5px;
+
     border: none;
     outline: none;
-    border-radius: 5px;
-    padding: 0.8rem;
-    width: 100%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.contactUsHeader{
-    /* border: 1px solid red; */
-    display: flex;
-    gap: 3rem;
+@media screen and (max-width:1029px) {
+    .hide {
+        display: none;
+    }
 }
 
-.contactUsHeaderContainer{
-    /* border: 1px solid red; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
+@media screen and (max-width:1111px) {
+    .menuIcon {
+        /* border: 1px solid red; */
+        display: block;
+    }
 }
 
-.contactUsIcon{
-    /* border: 1px solid red; */
-    font-size: 40px;
-    color: #2b28e9;
-}
+@media screen and (max-width:778px) {
+    .smhide {
+        display: none;
+        /* border: 1px solid red; */
+    }
 
-.contactUsContent div:first-child {
-    /* font-weight: bold; */
-    cursor: pointer;
-}
-
-.contactUsContent div:last-child {
-    /* font-weight: bold; */
-    cursor: pointer;
-    color: #959595;
+    .header_SearchBar {
+        display: none;
+        /* border: 1px solid red; */
+    }
 }

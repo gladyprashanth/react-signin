@@ -8,6 +8,192 @@
     overflow-x: hidden;
 }
 
-.MainBody_contents{
+/* .MainBody_contents{
+    border: 1px solid red;
+} */
+
+.App {
     /* border: 1px solid red; */
+    margin: 0px;
+    padding: 0px;
 }
+
+.App nav {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background: white;
+}
+
+.App nav ul {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    /* border: 1px solid red; */
+    color: gray;
+    display: flex;
+    gap: 1rem;
+
+    font-size: 10px;
+}
+
+ul {
+    list-style: none;
+    border-bottom: 2px solid black;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li div {
+    /* border: 1px solid red; */
+    display: block;
+    /* padding: 20px 25px; */
+    /* color: white; */
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    /* font-weight: bolder; */
+    font-size: 15px;
+}
+
+.innerHeader {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.innerHeader_title {
+    /* border: 1px solid red; */
+    color: #223672;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.dropdownOptionTitle {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdownOptionTitle div {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+    /* &:hover{
+        border: 1px solid red;
+    } */
+}
+
+ul li ul.dropdown {
+    /* border: 1px solid red; */
+    display: none;
+}
+
+/* ul li div:hover {
+
+} */
+
+ul li:hover ul.dropdown {
+    /* border: 1px solid red; */
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background: white;
+    width: 150px;
+    position: absolute;
+    /* z-index: -1; */
+    z-index: 999;
+    gap: 0.5rem;
+    /* Add box shadow */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 1s;
+}
+
+@media screen and (max-width: 797px) {
+    .innerHeader_title {
+        display: none;
+        transition: 0.5s;
+    }
+
+    .innerHeader {
+        /* border: 1px solid red; */
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+    }
+
+    .App nav ul {
+        width: 100%;
+        border: none;
+        color: gray;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .App nav {
+        /* border: 1px solid red; */
+        display: none;
+        transition: 0.5s;
+    }
+}
+
+.App_header_container {
+    /* border: 1px solid red; */
+    width: 100%;
+    /* position: sticky; */
+    height: 150px;
+    top: 0;
+    z-index: 999;
+
+    background: white;
+    transition: top 0.3s;
+}
+
+#navbar {
+    background-color: #ffff;
+}
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky+.content {
+    padding-top: 60px;
+}
+
+.contentBody{
+    z-index: -999;
+}
+
+.contentBody.blur {
+    background: grey;
+    transition: 0.5s;
+}
+
