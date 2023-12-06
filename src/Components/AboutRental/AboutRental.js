@@ -3,7 +3,7 @@ import "./AboutRental.css";
 import img_2 from "../../Assets/img_2.jpg";
 import img_34 from "../../Assets/img_34.webp";
 import { IoMdHeartEmpty } from "react-icons/io";
-import { VscOpenPreview } from "react-icons/vsc";
+// import { VscOpenPreview } from "react-icons/vsc";
 
 
 const AboutRental = () => {
