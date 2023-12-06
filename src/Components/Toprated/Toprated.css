@@ -9,8 +9,8 @@
   position: absolute;
   justify-content: space-around;
   align-items: right;
-  height: 100px; /* Adjust the height as needed */
-  opacity: 0; /* Initially hide the icons */
+  height: 100px; 
+  opacity: 0; 
 }
 
 .circle2 {
@@ -21,13 +21,13 @@
     align-items: right  ;
     
     height: 40px;
-    /* background-color: transparent;   */
+    
     opacity: 0; 
-    transition: opacity 0.2s ease; /* Add a smooth transition effect */
+    transition: opacity 0.2s ease;
   }
   
   .circle2 svg {
-    color: black; /* Change the icon color as desired */
+    color: black; 
   } 
   .desktop_card1:hover .circle2 {
     opacity: 1; /* Adjust opacity to fully visible on hover */
