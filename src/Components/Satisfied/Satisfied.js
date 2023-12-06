@@ -69,15 +69,9 @@ const Satisfied = () => {
               <h1 className="text-center fs-2 mt-5">Satisfied customers</h1>
             </div>
 
-<<<<<<< Updated upstream
-            <div className="col-sm-2 mt-5 ">
-              <h3>Excellent</h3>
-              <span className="stars fs-5 mt-3 text-warning">
-=======
             <div className="col-sm-2 mt-5">
               <h3>Excellent</h3>
               <span className="stars fs-5 text-warning mt-3">
->>>>>>> Stashed changes
                 <FaStar />
                 <FaStar />
                 <FaStar />
@@ -88,11 +82,7 @@ const Satisfied = () => {
               <img className="img-fluid w-75" src={img_7} alt="google logo" />
             </div>
 {/* caroseal test start */}
-<<<<<<< Updated upstream
-            <div className="col-sm-10 mt-5 ">
-=======
             <div className="col-sm-10 mt-5">
->>>>>>> Stashed changes
               
 
 
@@ -192,13 +182,8 @@ const Satisfied = () => {
             <div className="col-sm-5">
 
             </div>
-<<<<<<< Updated upstream
-                <div className="col-3">
-            <a href="#" className="btn btn-primary  btn-lg mt-5   ">Write Review</a>
-=======
                 <div className="col-3 ">
             <a href="#" className="btn btn-primary    btn-lg mt-5 mb-3  ">Write Review</a>
->>>>>>> Stashed changes
 
             </div>
           </div>

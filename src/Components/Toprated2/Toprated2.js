@@ -42,30 +42,6 @@ const Toprated2 = () => {
 
 
         
-<<<<<<< Updated upstream
-       
-       <div className="container">
-            <div className="row  ">
-        {desktops.map(desktop => (
-          <div key={desktop.id} className="col-sm-3 mt-3 ">
-            <div className="card desktop_card border-0  " style={{ width: '15rem', height: '30rem' }}>
-            <div className="desktop_react_icons circle3 position-absolute ">
-                                    <div className="circle3">  <MdOutlineShoppingCart /> </div>
-                                    <div className="circle3">   <FiLink />  </div>
-                                    <div className="circle3">  <IoMdHeartEmpty /> </div>
-                                    <div className="circle3">  <VscOpenPreview /> </div>
-                                </div>
-              <img src={desktop.image} className="desktop_pc_one  " alt="Desktop" />
-              <h4 className='text-center' >{desktop.title}</h4>
-              <br />
-              <div className="heart_button text-center">
-              <a href="#" className="btn btn-primary  btn-lg  ">
-              Read More
-            </a>
-            <span className='mx-3 fs-5' ><FiHeart/></span>
-    
-              </div>
-=======
       },
       {
         id: 2,
@@ -180,7 +156,6 @@ return (
           </a>
           <span className='mx-3 fs-5' ><FiHeart/></span>
   
->>>>>>> Stashed changes
             </div>
           </div>
         </div>

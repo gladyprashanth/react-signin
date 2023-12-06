@@ -1,39 +1,6 @@
 .one{
     background-color: #f7f7f7;
 }
-<<<<<<< Updated upstream
-.desktop_react_icons1{
-  cursor: pointer;
-}
-
-.desktop_react_icons1 {
-  position: absolute;
-  justify-content: space-around;
-  align-items: right;
-  height: 100px; 
-  opacity: 0; 
-}
-
-.circle2 {
-    margin-left: 140px;
-    cursor: pointer;
-    top: 10px;
-    justify-content: right;
-    align-items: right  ;
-    
-    height: 40px;
-    
-    opacity: 0; 
-    transition: opacity 0.2s ease;
-  }
-  
-  .circle2 svg {
-    color: black; 
-  } 
-  .desktop_card1:hover .circle2 {
-    opacity: 1; /* Adjust opacity to fully visible on hover */
-  }
-=======
 .letters h5{
   font-family:'DM Serif Display' , Serif;
  
@@ -119,4 +86,3 @@
 }
 
   
->>>>>>> Stashed changes

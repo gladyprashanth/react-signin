@@ -1,22 +1,10 @@
 import React, { useState } from 'react';
 import "./Toprated.css";
 import { FiHeart } from "react-icons/fi";
-<<<<<<< Updated upstream
-import img_23 from "../../Assets/img_23.webp"
-import img_24 from "../../Assets/img_24.webp"
-import img_25 from "../../Assets/img_25.webp"
-
-import { MdOutlineShoppingCart } from "react-icons/md";
-import { FiLink } from "react-icons/fi";
-import { IoMdHeartEmpty } from "react-icons/io";
-import { VscOpenPreview } from "react-icons/vsc";
-
-=======
 // import { IoMdHeartEmpty } from "react-icons/io";
 import img_23 from "../../Assets/img_23.webp";
 import img_24 from "../../Assets/img_24.webp";
 import img_25 from "../../Assets/img_25.webp";
->>>>>>> Stashed changes
 
 const Toprated = () => {
     
@@ -68,35 +56,6 @@ const Toprated = () => {
               <h1>Top rated products</h1>
               <h6>Best choice</h6>
             </div>
-<<<<<<< Updated upstream
-            
-      <div className="row">
-        <div className="col-sm-1"></div>
-       
-        <div className="col-sm-10 ">
-            <div className="row ">
-        {desktops.map(desktop => (
-          <div key={desktop.id} className="col-sm-4  ">
-            <div className="card desktop_card1 border-0  " style={{ width: '20rem', height: '33rem' }}>
-            <div className="desktop_react_icons1 circle2 position-absolute ">
-                                    <div className="circle2">  <MdOutlineShoppingCart /> </div>
-                                    <div className="circle2">   <FiLink />  </div>
-                                    <div className="circle2">  <IoMdHeartEmpty /> </div>
-                                    <div className="circle2">  <VscOpenPreview /> </div>
-                                </div>
-              <img src={desktop.image} className="desktop_pc_one" alt="Desktop" />
-              <h4 className='text-center' >{desktop.title}</h4>
-              <br />
-              <div className="heart_button text-center">
-              <a href="#" className="btn btn-primary  btn-lg  ">
-              Read More
-            </a>
-            <span className='mx-3 fs-5' ><FiHeart/></span>
-    
-              </div>
-            </div> <br />
-=======
->>>>>>> Stashed changes
           </div>
 
 
