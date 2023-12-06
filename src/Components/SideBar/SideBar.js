@@ -31,7 +31,7 @@ const SideBar = () => {
         },
         {
             icon: "http://rentalplaza.in/wp-content/uploads/2023/08/5.png",
-            optionName: "Apple",
+            optionName: "Printer",
             dropDownMenu: [
                 "MacBook",
                 "iMac",
@@ -39,7 +39,23 @@ const SideBar = () => {
         },
         {
             icon: "https://rentalplaza.in/wp-content/uploads/2023/10/Untitled-design-2023-10-16T141143176.png",
-            optionName: "Apple",
+            optionName: "Projector",
+            dropDownMenu: [
+                "MacBook",
+                "iMac",
+            ]
+        },
+        {
+            icon: "http://rentalplaza.in/wp-content/uploads/2023/08/4.png",
+            optionName: "Server",
+            dropDownMenu: [
+                "MacBook",
+                "iMac",
+            ]
+        },
+        {
+            icon: "https://rentalplaza.in/wp-content/uploads/2023/10/Untitled-design-2023-10-14T234144196.png",
+            optionName: "Workstation",
             dropDownMenu: [
                 "MacBook",
                 "iMac",
