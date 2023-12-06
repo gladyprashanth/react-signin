@@ -4,7 +4,10 @@ import bannerImage from "../../Assets/first_ban.webp";
 import boyimage from "../../Assets/boy.png";
 import laP from "../../Assets/lap.png";
 import AOS from "aos";
-import "aos/dist/aos.css"; 
+import "aos/dist/aos.css";
+
+
+
 const BannerHome = () => {
   AOS.init();
 
@@ -21,12 +24,12 @@ const BannerHome = () => {
       id: 3,
       image: laP,
     },
-   
+
   ];
 
   return (
     <div className="container-fluid outimg mt-5">
-      
+
       <div
         id="carouselExample"
         className="carousel slide sm-center img-fluid"
@@ -41,7 +44,7 @@ const BannerHome = () => {
             >
               <div className="row">
                 <div className="col-sm-12 col-md-4 text-center txt_three">
-                  
+
                 </div>
                 <div className="col-sm-12 col-md-4 ">
                   <img
@@ -51,7 +54,7 @@ const BannerHome = () => {
                   />
                 </div>
                 <div className="col-sm-12 col-md-4 logos_ram text-center">
-                  
+
                 </div>
               </div>
             </div>

@@ -13,12 +13,14 @@ import Highend from '../../Components/Highend/Highend';
 import Toprated from '../../Components/Toprated/Toprated';
 import Toprated2 from '../../Components/Toprated2/Toprated2';
 import Timer from '../../Components/Timer/Timer';
+import BannerCarousel from '../../Components/BannerCarousel/BannerCarousel';
 
 
 const Home = () => {
   return (
     <div>
       <BannerHome />
+      {/*<BannerCarousel/> */}
       <Bestservices />
       <ITEquipment />
       <Highend />

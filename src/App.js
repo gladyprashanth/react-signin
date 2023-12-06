@@ -54,7 +54,6 @@ function App() {
       {
         path:'/Page1',
         element:<Page1/>
-        
       },
       {
         path:"/Page2",

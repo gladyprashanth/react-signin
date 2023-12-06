@@ -16,11 +16,6 @@ import { IoMdHeartEmpty } from "react-icons/io";
 import { VscOpenPreview } from "react-icons/vsc";
 
 
-// import { MdOutlineShoppingCart } from "react-icons/md";
-// import { FiLink } from "react-icons/fi";
-import { IoMdHeartEmpty } from "react-icons/io";
-// import { VscOpenPreview } from "react-icons/vsc";
-
 
 const Toprated2 = () => {
   const [showFullText, setShowFullText] = useState(false);

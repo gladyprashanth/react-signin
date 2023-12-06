@@ -51,11 +51,7 @@ const WhyChoose = () => {
             {/* <div className="row"> */}
               {cardDataArray.map((cardData) => (
                 <div key={cardData.id} className="col-sm-4">
-<<<<<<< Updated upstream
                   <div className="card mt-4 border-0" style={{ width: "22rem" }}>
-=======
-                  <div className="card crack mt-2" style={{ width: "100" }}>
->>>>>>> Stashed changes
                     <img
                       className="card-img-top"
                       src={cardData.imgSrc}
