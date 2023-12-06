@@ -8,7 +8,7 @@ import Blog from './Pages/Blog/Blog';
 import ContactUs from './Pages/ContactUs/ContactUs';
 import SubBlog from './Components/SubBlogs/SubBlog';
 import LogInSidebar from './Components/LogInSidebar/LogInSidebar';
-import SideBar from './Components/Sidebar/SideBar'
+import SideBar from './Components/SideBar/SideBar'
 
 function App() {
 
