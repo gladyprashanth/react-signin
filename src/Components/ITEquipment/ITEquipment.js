@@ -6,6 +6,7 @@ import Mackbook from '../../Assets/laptop_3.webp';
 import Server from '../../Assets/laptop_4.webp';
 import Printer from '../../Assets/laptop_5.webp';
 import Apple from '../../Assets/laptop_6.webp';
+import { Link } from 'react-router-dom';
 
 
 
@@ -44,7 +45,6 @@ const equipmentData = [
 ];
 
 const ITEquipment = () => {
-  const initialContent = '';
   const [showFullContent, setShowFullContent] = useState(false);
 
   const toggleReadMore = () => {
@@ -56,8 +56,8 @@ const ITEquipment = () => {
       <div className='container'>
         <div className='row mt-5'>
           <div className='col-sm-12'>
-                <p className='fs-4'>Complete IT Equipment Rentals</p>
-                <h1 className='text-center'>Our <span className='text-primary'>Services </span></h1>
+            <p className='fs-4'>Complete IT Equipment Rentals</p>
+            <h1 className='text-center'>Our <span className='text-primary'>Services </span></h1>
           </div>
         </div>
       </div>
@@ -70,9 +70,9 @@ const ITEquipment = () => {
                   <div className="col-sm-6">
                     <div className="card-body">
                       <h4 className="text-start fw-normal">
-                        <a className="on_2 text-black " href="">
+                        <Link to={`/services/${equipment.title}`} className="on_2 text-black" target="_blank">
                           {equipment.title}
-                        </a>
+                        </Link>
                       </h4>
                       <div>
                         <p className="text-start card-text text-black mt-3">

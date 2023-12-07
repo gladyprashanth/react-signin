@@ -1,0 +1,42 @@
+.Equipments_container{
+    /* border: 1px solid red; */
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.Equipments_container_card {
+    border: 1px solid red;
+    border-radius: 5px;
+    background: #f7f7f7;
+
+    display: flex;
+    gap: 0.5rem;
+
+    /* Add box shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Adjust values as needed */
+}
+
+.Equipments_container_card_contents{
+    border: 1px solid red;
+}
+
+.Equipments_container_card div{
+    /* border: 1px solid red; */
+    padding: 0.5rem;
+}
+
+.Equipments_image_container{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.Equipments_image_container img{
+    max-width: 100%;
+    max-height: 100%;
+}

@@ -27,7 +27,7 @@ function App() {
         element: <Home />
       },
       {
-        path: "/products",
+        path: "/products/:category",
         element: <Products />
       },
       {
@@ -50,7 +50,6 @@ function App() {
         path:'/SubBlog',
         element:<SubBlog/>
       },
-
       {
         path:'/Page1',
         element:<Page1/>

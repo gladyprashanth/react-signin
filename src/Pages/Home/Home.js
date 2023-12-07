@@ -14,6 +14,8 @@ import Toprated from '../../Components/Toprated/Toprated';
 import Toprated2 from '../../Components/Toprated2/Toprated2';
 import Timer from '../../Components/Timer/Timer';
 import BannerCarousel from '../../Components/BannerCarousel/BannerCarousel';
+import Services from '../../Components/Services/Services';
+import Equipments from '../../Components/Equipments/Equipments';
 
 
 const Home = () => {
@@ -21,19 +23,23 @@ const Home = () => {
     <div>
       <BannerHome />
       {/*<BannerCarousel/> */}
-      <Bestservices />
-      <ITEquipment />
+      {/*<Bestservices /> */}
+
+      {/*Reworked the Best Services due to alignment and mobile responsive was not good */}
+      <Services /> {/*Chandru */}
+
+      <ITEquipment /> {/*Not good in mobile responsive */}
+      {/*<Equipments/> */} {/*Working */}
       <Highend />
       <Toprated />
       <Timer />
       <Toprated2 />
-      <AboutRental/>
+      <AboutRental />
       <WhyChoose />
       <Satisfied />
       <Welook />
       <Form />
       <Ourpresence />
-      
     </div>
   )
 }

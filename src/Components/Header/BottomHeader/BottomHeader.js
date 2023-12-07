@@ -8,25 +8,25 @@ const BottomHeader = () => {
         {
             title: "Desktops",
             dropDownMenu: [
-                "Why Rentals",
-                "What do we do?",
-                "Who We Are"
+                "Office Desktops",
+                "High End Desktops",
+                "Gaming Desktops"
             ]
         },
         {
             title: "Laptops",
             dropDownMenu: [
-                "Laptop on Rent",
-                "Computer on Rent",
-                "MacBook on Rent"
+                "Office Laptops",
+                "Gaming Laptops",
+                "Developer Laptops",
+                "WFH Laptops"
             ]
         },
         {
             title: "Apple",
             dropDownMenu: [
-                "Laptop on Rent in Delhi",
-                "Laptop on Rent in Chennai",
-                "Laptop on Rent in Bangalore",
+                "MacBook",
+                "iMac",
             ]
         },
         {
@@ -71,7 +71,7 @@ const BottomHeader = () => {
                                     onMouseLeave={() => document.querySelector('.contentBody').classList.remove('blur')}
                                 >
                                     {item.dropDownMenu.map((subItem, subIndex) => (
-                                        <li key={subIndex}><div>{subItem}</div></li>
+                                        <li key={subIndex}><Link to={`/products/${subItem}`}>{subItem}</Link></li>
                                     ))}
                                 </ul>
                                 :

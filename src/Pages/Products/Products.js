@@ -68,20 +68,6 @@ const Products = () => {
                 </div>
                 
                 <div className="row mx-auto">
-
-                    {/* <div className="col-3 mx-auto">
-                        <div className="card desktop_card border-0 box_color_vj" style={{ width: '18rem', height: '26rem' }}>
-                            <img src={desktop_pc_one} className="desktop_pc_one" alt="Desktop" />
-                            <div className="desktop_react_icons circle">
-                                <div className="circle">  <MdOutlineShoppingCart /> </div>
-                                <div className="circle">   <FiLink />  </div>   
-                                <div className="circle">  <IoMdHeartEmpty /> </div>
-                                <div className="circle">  <VscOpenPreview /> </div>
-                            </div>
-                            <h4>Desktop on Rent i3 4th Gen 8GB RAM-320 GB HDD 18.5 Inch Screen Keyboard And Mouse</h4>
-                        </div>
-                    </div> <br /> */}
-
                 </div> <br /> <br />
             </div>
 
@@ -103,7 +89,6 @@ const Products = () => {
                                     <div className="circle">  <IoMdHeartEmpty /> </div>
                                     <div className="circle">  <VscOpenPreview /> </div>
                                 </div>
-
                             </div>
                             <br /> <br />
                         </div>

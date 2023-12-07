@@ -117,7 +117,7 @@ const MainBody = () => {
       <div className='contentBody'>
         <Outlet />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
