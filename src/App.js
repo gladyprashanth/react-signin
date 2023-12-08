@@ -8,16 +8,19 @@ import Blog from './Pages/Blog/Blog';
 import ContactUs from './Pages/ContactUs/ContactUs';
 import SubBlog from './Components/SubBlogs/SubBlog';
 import LogInSidebar from './Components/LogInSidebar/LogInSidebar';
-import SideBar from './Components/Sidebar/SideBar'
+import SideBar from './Components/SideBar/SideBar'
+import Login from './Components/Login/Login';
+import ForgotPassword from './Components/ForgotPassword/ForgotPassword';
 
 function App() {
 
-  const appRouter = createBrowserRouter([{
+  const appRouter = createBrowserRouter([
+    {
     path: "/",
     element: <MainBody />,
     children: [
       {
-        path: "/",
+        path: "home",
         element: <Home />
       },
       {
@@ -49,7 +52,16 @@ function App() {
   {
     path: "/login-sidebar",
     element: <LogInSidebar />
-  }])
+  },
+  {
+    path: "/login",
+    element: <Login />
+  },
+  {
+    path: "/forgotpassword",
+    element: <ForgotPassword />
+  }
+])
 
   return (
     <div>
