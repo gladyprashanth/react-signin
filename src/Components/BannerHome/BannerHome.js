@@ -29,7 +29,6 @@ const BannerHome = () => {
 
   return (
     <div className="container-fluid outimg mt-5">
-
       <div
         id="carouselExample"
         className="carousel slide sm-center img-fluid"
