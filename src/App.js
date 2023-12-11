@@ -9,8 +9,8 @@ import ContactUs from './Pages/ContactUs/ContactUs';
 import SubBlog from './Components/SubBlogs/SubBlog';
 import LogInSidebar from './Components/LogInSidebar/LogInSidebar';
 import SideBar from './Components/SideBar/SideBar'
-import Login from './Components/Login/Login';
-import ForgotPassword from './Components/ForgotPassword/ForgotPassword';
+// import Login from './Components/Login/Login';
+// import ForgotPassword from './Components/ForgotPassword/ForgotPassword';
 
 function App() {
 
@@ -20,7 +20,7 @@ function App() {
     element: <MainBody />,
     children: [
       {
-        path: "home",
+        path: "/",
         element: <Home />
       },
       {
@@ -57,14 +57,14 @@ function App() {
     path: "/login-sidebar",
     element: <LogInSidebar />
   },
-  {
-    path: "/login",
-    element: <Login />
-  },
-  {
-    path: "/forgotpassword",
-    element: <ForgotPassword />
-  }
+  // {
+  //   path: "/login",
+  //   element: <Login />
+  // },
+  // {
+  //   path: "/forgotpassword",
+  //   element: <ForgotPassword />
+  // }
 ])
 
   return (
