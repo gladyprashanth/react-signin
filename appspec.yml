@@ -1,5 +1,15 @@
 version: 0.0
 os: linux
-files:
-  - source: /app.conf
-    destination: /etc/nginx/conf.d/
+
+hooks:
+  ApplicationStart:
+    - location: scripts/application_start.sh
+      runas: root
+
+  BeforeInstall:
+    - location: scripts/before_install.sh
+      runas: root
+
+  ApplicationStop:
+    - location: scripts/application_stop.sh
+      runas: root
